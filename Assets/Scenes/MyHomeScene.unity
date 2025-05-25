@@ -8215,7 +8215,7 @@ Grid:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 481983655}
   m_Enabled: 1
-  m_CellSize: {x: 0.1, y: 0.1, z: 0}
+  m_CellSize: {x: 0.3, y: 0.3, z: 0}
   m_CellGap: {x: 0, y: 0, z: 0}
   m_CellLayout: 0
   m_CellSwizzle: 0
@@ -8299,7 +8299,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 3.7012377
+  orthographic size: 10.470042
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -8324,7 +8324,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.57, y: 1.59, z: -10}
+  m_LocalPosition: {x: -7.1, y: 13.2, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
