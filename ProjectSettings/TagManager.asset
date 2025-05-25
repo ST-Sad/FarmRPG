@@ -59,3 +59,15 @@ TagManager:
   - name: Game
     uniqueID: 2354432893
     locked: 0
+  - name: Wall
+    uniqueID: 240122223
+    locked: 0
+  - name: Floor
+    uniqueID: 2174113437
+    locked: 0
+  - name: Decoration
+    uniqueID: 4213005051
+    locked: 0
+  - name: Furniture
+    uniqueID: 2666558925
+    locked: 0
