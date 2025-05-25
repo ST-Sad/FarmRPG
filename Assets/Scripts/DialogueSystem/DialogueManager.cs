@@ -26,7 +26,6 @@ public class DialogueManager : MonoBehaviour
         }
         Instance = this;
         DontDestroyOnLoad(gameObject);
-
         dialoguePanel.SetActive(false);
     }
     public void StartDialogue(DialogueData dialogue, PlayerController player)

@@ -8,9 +8,25 @@ public class UIEventHeader : MonoBehaviour
     [SerializeField] private KeyCode openMenu = KeyCode.Escape; // 打开菜单的按键
     [SerializeField] private KeyCode openQuestLog = KeyCode.L;// 打开任务日志的按键
     [SerializeField] private KeyCode openInventory = KeyCode.E;// 打开背包的按键
+    [SerializeField] private KeyCode openMapKey = KeyCode.M;
 
+    void Start()
+    {
+       DontDestroyOnLoad(this.gameObject); 
+    }
     void Update()
     {
+         if (Input.GetKeyDown(openMapKey))
+        {
+            if (UIManager.Instance.IsPanelOpen("Map"))
+            {
+                UIManager.Instance.ClosePanel("Map");
+            }
+            else
+            {
+                UIManager.Instance.ShowPanel("Map");
+            }
+        }
         if (Input.GetKeyDown(openQuestLog))
         {
             if (UIManager.Instance.IsPanelOpen("QuestLog"))//如果任务日志面板已经打开，则关闭

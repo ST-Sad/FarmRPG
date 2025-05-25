@@ -7,10 +7,11 @@ public class SaveButton : MonoBehaviour
 {
     [SerializeField] private Button saveButton;
     [SerializeField] private Text saveFeedbackText;
-    
+
     private void Start()
     {
         saveButton.onClick.AddListener(OnSaveClicked);
+        DontDestroyOnLoad(this.gameObject);
     }
 
     public void OnSaveClicked()
