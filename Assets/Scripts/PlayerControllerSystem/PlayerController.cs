@@ -1,7 +1,9 @@
 // PlayerController.cs
 using UnityEngine;
 
-// 控制玩家移动和动画
+/// <summary>
+/// 控制玩家移动和动画，包括体力消耗逻辑
+/// </summary>
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(Animator))]
 public class PlayerController : MonoBehaviour
@@ -18,31 +20,42 @@ public class PlayerController : MonoBehaviour
         stats = GetComponent<CharacterStats>();
         if (stats != null)
         {
-            // 将角色数据应用到 CharacterStats
             stats.baseData = characterData;
         }
     }
 
     void Update()
     {
-        // 读取输入
+        // 设置动画参数
         float moveX = InputManager.Horizontal;
         float moveY = InputManager.Vertical;
         Vector2 move = new Vector2(moveX, moveY);
-
-        // 更新动画参数
         if (animator != null)
         {
             animator.SetFloat("Horizontal", move.x);
             animator.SetFloat("Vertical", move.y);
             animator.SetFloat("Speed", move.magnitude);
         }
+
+        // 体力消耗：移动时扣除体力
+        if (stats != null && move.magnitude > 0.1f && stats.currentStamina > 0)
+        {
+            stats.currentStamina -= (int)(characterData.staminaCostPerSecond * Time.deltaTime);
+            if (stats.currentStamina < 0) stats.currentStamina = 0;
+        }
     }
 
     void FixedUpdate()
     {
-        // 物理移动
+        // 根据输入移动角色，如果体力不足则无法移动
         Vector2 move = new Vector2(InputManager.Horizontal, InputManager.Vertical);
-        rb.velocity = move.normalized * characterData.moveSpeed;
+        if (stats != null && stats.currentStamina <= 0)
+        {
+            rb.velocity = Vector2.zero;
+        }
+        else
+        {
+            rb.velocity = move.normalized * characterData.moveSpeed;
+        }
     }
 }

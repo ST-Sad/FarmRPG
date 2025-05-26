@@ -1,18 +1,23 @@
 // EntityStats.cs
 using UnityEngine;
 
-// 管理实体的属性和生命值
+/// <summary>
+/// 管理实体的生命值和死亡逻辑
+/// </summary>
 public class EntityStats : MonoBehaviour
 {
     public int maxHealth = 100;    // 最大生命值
     public int currentHealth;      // 当前生命值
+    public int expValue = 1;       // 死亡时给予的经验值
 
     void Start()
     {
         currentHealth = maxHealth;
     }
 
-    // 受到伤害处理
+    /// <summary>
+    /// 实体受到伤害
+    /// </summary>
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
@@ -23,10 +28,17 @@ public class EntityStats : MonoBehaviour
         }
     }
 
-    // 实体死亡
+    /// <summary>
+    /// 实体死亡处理：销毁对象并给予玩家经验
+    /// </summary>
     private void Die()
     {
-        // 添加死亡逻辑，如播放动画
+        // 给玩家角色添加经验
+        CharacterStats playerStats = FindObjectOfType<CharacterStats>();
+        if (playerStats != null)
+        {
+            playerStats.AddExp(expValue);
+        }
         Destroy(gameObject);
     }
 }

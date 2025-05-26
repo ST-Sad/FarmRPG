@@ -1,26 +1,48 @@
 // PlantingManager.cs
 using UnityEngine;
-using System.Collections.Generic;
+
+/// <summary>
+/// 负责玩家对地块的交互：左键种植，右键收获。连接 CropData、FarmTile 和背包、角色经验系统:contentReference[oaicite:5]{index=5}
+/// </summary>
 public class PlantingManager : MonoBehaviour
 {
-    [Tooltip("当前选定的作物数据")]
-    public CropData selectedCrop; // 被选中的作物类型
-    List<FarmTile> farmTiles;
+    [Tooltip("当前选定要种植的作物数据")]
+    public CropData selectedCrop;               // 被选中的作物类型
+    public InventoryManager inventoryManager;   // 背包管理器（用于收获物品）
+    public CharacterStats playerStats;          // 玩家属性（用于收获经验）
+
     void Update()
     {
-
-        // 左键点击检测：在被点击的地块上种植作物
-        if (Input.GetMouseButtonDown(0) && selectedCrop != null)
+        // 鼠标位置转换为世界坐标
+        Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Vector2 mousePos2D = new Vector2(mousePos.x, mousePos.y);
+        RaycastHit2D hit = Physics2D.Raycast(mousePos2D, Vector2.zero);
+        if (hit.collider != null)
         {
-            Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            Vector2 mousePos2D = new Vector2(mousePos.x, mousePos.y);
-            RaycastHit2D hit = Physics2D.Raycast(mousePos2D, Vector2.zero);
-            if (hit.collider != null)
+            FarmTile tile = hit.collider.GetComponent<FarmTile>();
+
+            // 左键：种植作物
+            if (Input.GetMouseButtonDown(0) && selectedCrop != null && tile != null)
             {
-                FarmTile tile = hit.collider.GetComponent<FarmTile>();
-                if (tile != null && !tile.isPlanted)
+                tile.PlantCrop(selectedCrop);
+            }
+            // 右键：收获成熟作物
+            if (Input.GetMouseButtonDown(1) && tile != null && tile.isPlanted && tile.currentCrop != null)
+            {
+                CropData data = tile.currentCrop.data;
+                if (tile.currentCrop.isGrown)
                 {
-                    tile.PlantCrop(selectedCrop);
+                    // 计算产量：基础产量 + 施肥加成
+                    int yield = data.baseYield;
+                    if (tile.isFertilized) yield += data.fertilizerYieldBonus;
+                    // 给玩家背包和经验
+                    if (inventoryManager != null && data.produceItem != null)
+                        inventoryManager.AddItem(data.produceItem, yield);
+                    if (playerStats != null)
+                        playerStats.AddExp(data.expReward * yield);
+                    // 收获并销毁作物
+                    tile.HarvestCrop();
+                    tile.isFertilized = false;
                 }
             }
         }
