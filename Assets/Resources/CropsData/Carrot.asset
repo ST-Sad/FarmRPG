@@ -12,9 +12,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76740556a882a8649b1ff03364d6030f, type: 3}
   m_Name: Carrot
   m_EditorClassIdentifier: 
-  cropName: 
-  growthStages: []
-  stageGrowthTime: []
+  cropName: Carrot
+  growthStages:
+  - {fileID: 1021664740, guid: 3cb915ae75d7e7440a8ec2fe8498eeda, type: 3}
+  - {fileID: -2126661894, guid: 3cb915ae75d7e7440a8ec2fe8498eeda, type: 3}
+  - {fileID: 14994250, guid: 3cb915ae75d7e7440a8ec2fe8498eeda, type: 3}
+  - {fileID: 1741053716, guid: 3cb915ae75d7e7440a8ec2fe8498eeda, type: 3}
+  - {fileID: 315495747, guid: 3cb915ae75d7e7440a8ec2fe8498eeda, type: 3}
+  stageGrowthTime:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
   allowedSeasons: 
   produceItem: {fileID: 0}
   baseYield: 2

@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 76740556a882a8649b1ff03364d6030f, type: 3}
-  m_Name: Potato
+  m_Name: Onino
   m_EditorClassIdentifier: 
-  cropName: potato
+  cropName: Oinino
   growthStages:
-  - {fileID: 907085707, guid: 3cb915ae75d7e7440a8ec2fe8498eeda, type: 3}
-  - {fileID: -1959067530, guid: 3cb915ae75d7e7440a8ec2fe8498eeda, type: 3}
-  - {fileID: -126570596, guid: 3cb915ae75d7e7440a8ec2fe8498eeda, type: 3}
-  - {fileID: -1692667395, guid: 3cb915ae75d7e7440a8ec2fe8498eeda, type: 3}
-  - {fileID: -1381268622, guid: 3cb915ae75d7e7440a8ec2fe8498eeda, type: 3}
+  - {fileID: -1142546697, guid: 3cb915ae75d7e7440a8ec2fe8498eeda, type: 3}
+  - {fileID: -1026741493, guid: 3cb915ae75d7e7440a8ec2fe8498eeda, type: 3}
+  - {fileID: -363344946, guid: 3cb915ae75d7e7440a8ec2fe8498eeda, type: 3}
+  - {fileID: -1257106340, guid: 3cb915ae75d7e7440a8ec2fe8498eeda, type: 3}
+  - {fileID: -1701001741, guid: 3cb915ae75d7e7440a8ec2fe8498eeda, type: 3}
   stageGrowthTime:
   - 0
   - 0
@@ -41,7 +41,7 @@ MonoBehaviour:
   - 0
   - 0
   allowedSeasons: 
-  produceItem: {fileID: 11400000, guid: aa8507f6065aec246892daec8681976d, type: 2}
+  produceItem: {fileID: 0}
   baseYield: 2
   fertilizerYieldBonus: 1
   expReward: 5
