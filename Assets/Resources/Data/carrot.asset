@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cb640a9d1c9292a4a8eeba2ef984f919, type: 3}
-  m_Name: potato
+  m_Name: carrot
   m_EditorClassIdentifier: 
-  itemName: potato
-  icon: {fileID: 598615512, guid: 3cb915ae75d7e7440a8ec2fe8498eeda, type: 3}
+  itemName: carrot
+  icon: {fileID: 2055768063, guid: 3cb915ae75d7e7440a8ec2fe8498eeda, type: 3}
   isStackable: 1

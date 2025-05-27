@@ -51,8 +51,8 @@ MonoBehaviour:
   - 0
   - 0
   allowedSeasons: 
-  produceItem: {fileID: 0}
+  produceItem: {fileID: 11400000, guid: 4115c3235e244f94bad5fd6404c3e2bb, type: 2}
   baseYield: 2
   fertilizerYieldBonus: 1
   expReward: 5
-  cropPrefab: {fileID: 0}
+  cropPrefab: {fileID: 3303775823209657728, guid: 7fe634081b0bd2b46966a0b295fd0684, type: 3}
