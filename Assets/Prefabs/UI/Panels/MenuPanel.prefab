@@ -94,8 +94,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   panelName: menu
   canvasGroup: {fileID: 0}
-  useFadeEffect: 1
-  fadeDuration: 0.3
   onPanelOpened:
     m_PersistentCalls:
       m_Calls: []
@@ -195,7 +193,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u9000\u51FA"
+  m_Text: "\u9000\u51FA\u6E38\u620F"
 --- !u!1 &2148140684920396702
 GameObject:
   m_ObjectHideFlags: 0
