@@ -287,7 +287,7 @@ MonoBehaviour:
   plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
   harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
   harvestedDisplayTime: 3
-  pitOffset: {x: 0.5, y: 0.5}
+  pitOffset: {x: 0, y: 0}
 --- !u!1 &58133549
 GameObject:
   m_ObjectHideFlags: 0
@@ -528,7 +528,7 @@ MonoBehaviour:
   plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
   harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
   harvestedDisplayTime: 3
-  pitOffset: {x: 0.5, y: 0.5}
+  pitOffset: {x: 0, y: 0}
 --- !u!1 &132239567
 GameObject:
   m_ObjectHideFlags: 0
@@ -762,7 +762,7 @@ MonoBehaviour:
   plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
   harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
   harvestedDisplayTime: 3
-  pitOffset: {x: 0.5, y: 0.5}
+  pitOffset: {x: 0, y: 0}
 --- !u!1 &154917814
 GameObject:
   m_ObjectHideFlags: 0
@@ -928,7 +928,7 @@ MonoBehaviour:
   plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
   harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
   harvestedDisplayTime: 3
-  pitOffset: {x: 0.5, y: 0.5}
+  pitOffset: {x: 0, y: 0}
 --- !u!1 &167708306
 GameObject:
   m_ObjectHideFlags: 0
@@ -1169,7 +1169,7 @@ MonoBehaviour:
   plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
   harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
   harvestedDisplayTime: 3
-  pitOffset: {x: 0.5, y: 0.5}
+  pitOffset: {x: 0, y: 0}
 --- !u!1 &193476788
 GameObject:
   m_ObjectHideFlags: 0
@@ -1588,7 +1588,7 @@ MonoBehaviour:
   plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
   harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
   harvestedDisplayTime: 3
-  pitOffset: {x: 0.5, y: 0.5}
+  pitOffset: {x: 0, y: 0}
 --- !u!1001 &334654923
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1827,7 +1827,7 @@ MonoBehaviour:
   plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
   harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
   harvestedDisplayTime: 3
-  pitOffset: {x: 0.5, y: 0.5}
+  pitOffset: {x: 0, y: 0}
 --- !u!1 &454054164
 GameObject:
   m_ObjectHideFlags: 0
@@ -2068,7 +2068,7 @@ MonoBehaviour:
   plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
   harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
   harvestedDisplayTime: 3
-  pitOffset: {x: 0.5, y: 0.5}
+  pitOffset: {x: 0, y: 0}
 --- !u!1 &485487162
 GameObject:
   m_ObjectHideFlags: 0
@@ -2588,7 +2588,7 @@ MonoBehaviour:
   plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
   harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
   harvestedDisplayTime: 3
-  pitOffset: {x: 0.5, y: 0.5}
+  pitOffset: {x: 0, y: 0}
 --- !u!1 &608228526
 GameObject:
   m_ObjectHideFlags: 0
@@ -3092,7 +3092,7 @@ MonoBehaviour:
   plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
   harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
   harvestedDisplayTime: 3
-  pitOffset: {x: 0.5, y: 0.5}
+  pitOffset: {x: 0, y: 0}
 --- !u!1 &726031988
 GameObject:
   m_ObjectHideFlags: 0
@@ -4260,7 +4260,7 @@ MonoBehaviour:
   plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
   harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
   harvestedDisplayTime: 3
-  pitOffset: {x: 0.5, y: 0.5}
+  pitOffset: {x: 0, y: 0}
 --- !u!1 &938763008
 GameObject:
   m_ObjectHideFlags: 0
@@ -4426,7 +4426,7 @@ MonoBehaviour:
   plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
   harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
   harvestedDisplayTime: 3
-  pitOffset: {x: 0.5, y: 0.5}
+  pitOffset: {x: 0, y: 0}
 --- !u!1 &970140717
 GameObject:
   m_ObjectHideFlags: 0
@@ -4642,7 +4642,7 @@ MonoBehaviour:
   plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
   harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
   harvestedDisplayTime: 3
-  pitOffset: {x: 0.5, y: 0.5}
+  pitOffset: {x: 0, y: 0}
 --- !u!1 &1092698225 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3021571573313040171, guid: 955db1471b185574daf0222c879805a8, type: 3}
@@ -4917,7 +4917,7 @@ MonoBehaviour:
   plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
   harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
   harvestedDisplayTime: 3
-  pitOffset: {x: 0.5, y: 0.5}
+  pitOffset: {x: 0, y: 0}
 --- !u!1 &1159086929
 GameObject:
   m_ObjectHideFlags: 0
@@ -5286,7 +5286,7 @@ MonoBehaviour:
   plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
   harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
   harvestedDisplayTime: 3
-  pitOffset: {x: 0.5, y: 0.5}
+  pitOffset: {x: 0, y: 0}
 --- !u!1 &1287401515
 GameObject:
   m_ObjectHideFlags: 0
@@ -5452,7 +5452,7 @@ MonoBehaviour:
   plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
   harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
   harvestedDisplayTime: 3
-  pitOffset: {x: 0.5, y: 0.5}
+  pitOffset: {x: 0, y: 0}
 --- !u!1 &1296034031
 GameObject:
   m_ObjectHideFlags: 0
@@ -5618,7 +5618,7 @@ MonoBehaviour:
   plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
   harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
   harvestedDisplayTime: 3
-  pitOffset: {x: 0.5, y: 0.5}
+  pitOffset: {x: 0, y: 0}
 --- !u!1 &1322999689
 GameObject:
   m_ObjectHideFlags: 0
@@ -5979,7 +5979,7 @@ MonoBehaviour:
   plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
   harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
   harvestedDisplayTime: 3
-  pitOffset: {x: 0.5, y: 0.5}
+  pitOffset: {x: 0, y: 0}
 --- !u!1 &1428432289
 GameObject:
   m_ObjectHideFlags: 0
@@ -6145,7 +6145,7 @@ MonoBehaviour:
   plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
   harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
   harvestedDisplayTime: 3
-  pitOffset: {x: 0.5, y: 0.5}
+  pitOffset: {x: 0, y: 0}
 --- !u!1 &1488076518
 GameObject:
   m_ObjectHideFlags: 0
@@ -6386,7 +6386,7 @@ MonoBehaviour:
   plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
   harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
   harvestedDisplayTime: 3
-  pitOffset: {x: 0.5, y: 0.5}
+  pitOffset: {x: 0, y: 0}
 --- !u!1 &1538668430
 GameObject:
   m_ObjectHideFlags: 0
@@ -6627,7 +6627,7 @@ MonoBehaviour:
   plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
   harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
   harvestedDisplayTime: 3
-  pitOffset: {x: 0.5, y: 0.5}
+  pitOffset: {x: 0, y: 0}
 --- !u!1 &1563176742
 GameObject:
   m_ObjectHideFlags: 0
@@ -6793,7 +6793,7 @@ MonoBehaviour:
   plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
   harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
   harvestedDisplayTime: 3
-  pitOffset: {x: 0.5, y: 0.5}
+  pitOffset: {x: 0, y: 0}
 --- !u!1 &1584647956
 GameObject:
   m_ObjectHideFlags: 0
@@ -52685,7 +52685,7 @@ MonoBehaviour:
   plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
   harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
   harvestedDisplayTime: 3
-  pitOffset: {x: 0.5, y: 0.5}
+  pitOffset: {x: 0, y: 0}
 --- !u!1 &1595245874
 GameObject:
   m_ObjectHideFlags: 0
@@ -53001,7 +53001,7 @@ MonoBehaviour:
   plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
   harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
   harvestedDisplayTime: 3
-  pitOffset: {x: 0.5, y: 0.5}
+  pitOffset: {x: 0, y: 0}
 --- !u!1 &1624513431
 GameObject:
   m_ObjectHideFlags: 0
@@ -53349,7 +53349,7 @@ MonoBehaviour:
   plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
   harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
   harvestedDisplayTime: 3
-  pitOffset: {x: 0.5, y: 0.5}
+  pitOffset: {x: 0, y: 0}
 --- !u!1 &1673312078
 GameObject:
   m_ObjectHideFlags: 0
@@ -53567,7 +53567,7 @@ MonoBehaviour:
   plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
   harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
   harvestedDisplayTime: 3
-  pitOffset: {x: 0.5, y: 0.5}
+  pitOffset: {x: 0, y: 0}
 --- !u!1 &1710104662
 GameObject:
   m_ObjectHideFlags: 0
@@ -57383,7 +57383,7 @@ MonoBehaviour:
   plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
   harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
   harvestedDisplayTime: 3
-  pitOffset: {x: 0.5, y: 0.5}
+  pitOffset: {x: 0, y: 0}
 --- !u!1 &1833576920
 GameObject:
   m_ObjectHideFlags: 0
@@ -57594,7 +57594,7 @@ MonoBehaviour:
   plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
   harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
   harvestedDisplayTime: 3
-  pitOffset: {x: 0.5, y: 0.5}
+  pitOffset: {x: 0, y: 0}
 --- !u!1 &1848295366
 GameObject:
   m_ObjectHideFlags: 0
@@ -75183,7 +75183,7 @@ MonoBehaviour:
   plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
   harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
   harvestedDisplayTime: 3
-  pitOffset: {x: 0.5, y: 0.5}
+  pitOffset: {x: 0, y: 0}
 --- !u!1 &1995242941
 GameObject:
   m_ObjectHideFlags: 0
@@ -75740,7 +75740,7 @@ MonoBehaviour:
   plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
   harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
   harvestedDisplayTime: 3
-  pitOffset: {x: 0.5, y: 0.5}
+  pitOffset: {x: 0, y: 0}
 --- !u!1 &2096055854
 GameObject:
   m_ObjectHideFlags: 0
@@ -76083,7 +76083,7 @@ MonoBehaviour:
   plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
   harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
   harvestedDisplayTime: 3
-  pitOffset: {x: 0.5, y: 0.5}
+  pitOffset: {x: 0, y: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
