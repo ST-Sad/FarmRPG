@@ -12,6 +12,13 @@ public class InventoryManager : MonoBehaviour
 
     /// <summary>
     /// 添加物品到背包（如果可堆叠则增加数量，否则创建新槽）
+    void Start()
+    {
+        // 创建测试物品（需提前在 Resources 目录创建 ItemData 资源）
+        ItemData potato = Resources.Load<ItemData>("potato");
+        AddItem(potato, 5);
+        AddItem(potato, 3); // 叠加后数量为 8
+    }
     /// </summary>
     public void AddItem(ItemData item, int count = 1)
     {
