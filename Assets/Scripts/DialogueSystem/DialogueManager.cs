@@ -16,7 +16,6 @@ public class DialogueManager : MonoBehaviour
     private Queue<DialogueLine> currentLines;
     private DialogueData currentDialogue;
     private bool isInDialogue = false;
-    private PlayerController playerController;
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -28,12 +27,10 @@ public class DialogueManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
         dialoguePanel.SetActive(false);
     }
-    public void StartDialogue(DialogueData dialogue, PlayerController player)
+    public void StartDialogue(DialogueData dialogue)
     {
         if (isInDialogue) return;
 
-        playerController = player;
-        //playerController.SetMovementEnabled(false);<--看这里!!后面还有!!
 
         currentDialogue = dialogue;
         currentLines = new Queue<DialogueLine>(dialogue.lines);
@@ -98,7 +95,7 @@ public class DialogueManager : MonoBehaviour
         // 继续下一段对话或结束
         if (currentDialogue.options[index].nextDialogue != null)
         {
-            StartDialogue(currentDialogue.options[index].nextDialogue, playerController);
+            StartDialogue(currentDialogue.options[index].nextDialogue);
         }
         else
         {
@@ -110,10 +107,6 @@ public class DialogueManager : MonoBehaviour
         dialoguePanel.SetActive(false);
         isInDialogue = false;
         
-        if (playerController != null)
-        {
-            //playerController.SetMovementEnabled(true);
-        }
     }
 
     public bool IsInDialogue() => isInDialogue;

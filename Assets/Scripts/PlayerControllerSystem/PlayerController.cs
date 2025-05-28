@@ -22,6 +22,7 @@ public class PlayerController : MonoBehaviour
         {
             stats.baseData = characterData;
         }
+        DontDestroyOnLoad(gameObject);
     }
 
     void Update()

@@ -9,7 +9,7 @@ public class MapManager : MonoBehaviour
     {
         public string mapName;          // 地图显示名称
         public string sceneName;        // 场景名称
-        public Vector3 spawnPoint;      // 默认出生点
+        public Vector2 spawnPoint;      // 默认出生点
         public string parentMap;        // 上级地图名称（用于返回）
     }
 
@@ -17,7 +17,7 @@ public class MapManager : MonoBehaviour
     [SerializeField] private List<MapInfo> mapDatabase = new List<MapInfo>();
     [SerializeField] private Transform player;
     private Dictionary<string, MapInfo> mapDictionary = new Dictionary<string, MapInfo>();
-    private string currentMapName;
+    private string currentMapName="Untitled";
 
 
     private void Awake()

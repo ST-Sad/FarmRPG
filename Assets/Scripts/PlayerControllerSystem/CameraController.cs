@@ -8,6 +8,10 @@ public class CameraController : MonoBehaviour
 {
     public Transform target;     // 玩家Transform
     public float smoothing = 5f; // 跟随平滑系数
+    void Start()
+    {
+        DontDestroyOnLoad(gameObject);
+    }
 
     void LateUpdate()
     {

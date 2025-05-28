@@ -15,6 +15,7 @@ public class InventoryManager : MonoBehaviour
         AddItem(potato, 5);
         AddItem(potato, 3); // 叠加后数量为 8
         AddItem(onion, 88);
+         DontDestroyOnLoad(gameObject);
     }
 
     public void AddItem(ItemData item, int count = 1)
@@ -32,6 +33,11 @@ public class InventoryManager : MonoBehaviour
                 }
             }
         }
+         QuestManager.Instance.UpdateQuestProgress(
+                QuestObjectiveType.Collect, 
+                item.itemName, 
+                1
+            );
         slots.Add(new InventorySlot(item, count));
         OnInventoryChanged?.Invoke(); // 新增：通知 UI 刷新
     }

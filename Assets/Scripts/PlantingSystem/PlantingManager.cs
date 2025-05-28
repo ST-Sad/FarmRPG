@@ -11,6 +11,10 @@ public class PlantingManager : MonoBehaviour
     public InventoryManager inventoryManager;   // 背包管理器（用于收获物品）
     public CharacterStats playerStats;          // 玩家属性（用于收获经验）
 
+    void Start()
+    {
+        DontDestroyOnLoad(gameObject);
+    }
     void Update()
     {
         // 鼠标位置转换为世界坐标

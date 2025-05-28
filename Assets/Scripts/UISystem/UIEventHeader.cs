@@ -7,7 +7,6 @@ public class UIEventHeader : MonoBehaviour
     [Header("Input Settings")]
     [SerializeField] private KeyCode openMenu = KeyCode.Escape; // 打开菜单的按键
     [SerializeField] private KeyCode openQuestLog = KeyCode.L;// 打开任务日志的按键
-    [SerializeField] private KeyCode openInventory = KeyCode.E;// 打开背包的按键
     [SerializeField] private KeyCode openMapKey = KeyCode.M;
 
     void Start()
@@ -29,24 +28,13 @@ public class UIEventHeader : MonoBehaviour
         }
         if (Input.GetKeyDown(openQuestLog))
         {
-            if (UIManager.Instance.IsPanelOpen("QuestLog"))//如果任务日志面板已经打开，则关闭
+            if (UIManager.Instance.IsPanelOpen("Quest"))//如果任务日志面板已经打开，则关闭
             {
-                UIManager.Instance.ClosePanel("QuestLog");//关闭任务日志面板
+                UIManager.Instance.ClosePanel("Quest");//关闭任务日志面板
             }
             else
             {
-                UIManager.Instance.ShowPanel("QuestLog");//打开任务日志面板
-            }
-        }
-        if (Input.GetKeyDown(openInventory))
-        {
-            if (UIManager.Instance.IsPanelOpen("Inventory"))//如果背包面板已经打开，则关闭
-            {
-                UIManager.Instance.ClosePanel("Inventory");//关闭背包面板
-            }
-            else
-            {
-                UIManager.Instance.ShowPanel("Inventory");//打开背包面板 
+                UIManager.Instance.ShowPanel("Quest");//打开任务日志面板
             }
         }
         if (Input.GetKeyDown(openMenu))
@@ -56,9 +44,9 @@ public class UIEventHeader : MonoBehaviour
             {
                 UIManager.Instance.ClosePanel("Menu");//关闭菜单面板
             }
-            else if (UIManager.Instance.IsPanelOpen("QuestLog"))//如果任务日志面板已经打开，则关闭
+            else if (UIManager.Instance.IsPanelOpen("Quest"))//如果任务日志面板已经打开，则关闭
             {
-                UIManager.Instance.ClosePanel("QuestLog");//关闭任务日志面板
+                UIManager.Instance.ClosePanel("Quest");//关闭任务日志面板
             }
             else if (UIManager.Instance.IsPanelOpen("Inventory"))//如果背包面板已经打开，则关闭
             {

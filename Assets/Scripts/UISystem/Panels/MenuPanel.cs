@@ -11,7 +11,7 @@ public class MenuPanel : abstractUIPanel
     [SerializeField] private Button quitButton;
     public override void Refresh()
     { }
-    protected override void Awake()
+    protected void Awake()
     {
         Debug.Log("被打开");
         base.Awake();

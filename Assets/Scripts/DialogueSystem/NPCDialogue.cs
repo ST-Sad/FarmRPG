@@ -49,7 +49,7 @@ public class NPCDialogue : MonoBehaviour
         PlayerController playerController = player.GetComponent<PlayerController>();
         if (playerController != null)
         {
-            DialogueManager.Instance.StartDialogue(dialogueData, playerController);
+            DialogueManager.Instance.StartDialogue(dialogueData);
         }
     }
 

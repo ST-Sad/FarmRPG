@@ -16,6 +16,7 @@ public abstract class abstractUIPanel : MonoBehaviour
     protected virtual void Awake()
     {
         if (canvasGroup == null) canvasGroup = GetComponent<CanvasGroup>();
+        DontDestroyOnLoad(gameObject);
     }
     public virtual void Open()
     {

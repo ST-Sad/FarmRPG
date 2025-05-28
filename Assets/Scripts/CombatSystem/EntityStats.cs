@@ -9,6 +9,7 @@ public class EntityStats : MonoBehaviour
     public int maxHealth = 100;    // 最大生命值
     public int currentHealth;      // 当前生命值
     public int expValue = 1;       // 死亡时给予的经验值
+    public string enemyName;
 
     void Start()
     {
@@ -39,6 +40,11 @@ public class EntityStats : MonoBehaviour
         {
             playerStats.AddExp(expValue);
         }
+        QuestManager.Instance.UpdateQuestProgress(
+            QuestObjectiveType.Kill, 
+            enemyName, 
+            1
+        );
         Destroy(gameObject);
     }
 }

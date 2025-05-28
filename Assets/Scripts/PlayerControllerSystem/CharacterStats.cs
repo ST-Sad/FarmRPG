@@ -24,6 +24,7 @@ public class CharacterStats : MonoBehaviour
         attack = baseData.attack;
         defense = baseData.defense;
         currentStamina = baseData.maxStamina;
+        DontDestroyOnLoad(gameObject);
     }
 
     void Update()

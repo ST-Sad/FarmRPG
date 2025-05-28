@@ -9,7 +9,7 @@ public class SettingsPanel : abstractUIPanel
     [SerializeField] private Slider musicVolumeSlider;
     [SerializeField] private Button backButton;
 
-    protected override void Awake()
+    protected void Awake()
     {
         base.Awake();
         backButton.onClick.AddListener(() => UIManager.Instance.Back());
