@@ -50,3 +50,6 @@ TagManager:
   - name: Crops
     uniqueID: 4280993487
     locked: 0
+  - name: HarvestPit
+    uniqueID: 3007146781
+    locked: 0

@@ -19,10 +19,10 @@ MonoBehaviour:
   - {fileID: 14994250, guid: 3cb915ae75d7e7440a8ec2fe8498eeda, type: 3}
   - {fileID: 1741053716, guid: 3cb915ae75d7e7440a8ec2fe8498eeda, type: 3}
   stageGrowthTime:
-  - 5
-  - 5
-  - 5
-  - 5
+  - 1
+  - 1
+  - 1
+  - 1
   allowedSeasons: 00000000010000000200000003000000
   produceItem: {fileID: 11400000, guid: 27702cc75be0e1048917843f226c400b, type: 2}
   baseYield: 2
