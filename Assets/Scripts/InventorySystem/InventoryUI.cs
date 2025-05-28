@@ -7,7 +7,7 @@ public class InventoryUI : MonoBehaviour
     public InventoryManager inventoryManager;  // 背包管理器引用
     public Transform slotsParent;              // UI 槽父物体，用于布局
     public GameObject slotPrefab;              // 单个物品槽预制件（包含 Image 和 Text）
-    public int totalSlotCount = 10;           // 修改：固定总槽位数（取代 emptySlotCount）
+    public int totalSlotCount = 21;           // 修改：固定总槽位数（取代 emptySlotCount）
 
     void Start()
     {

@@ -4095,6 +4095,7 @@ MonoBehaviour:
   inventoryManager: {fileID: 485487163}
   slotsParent: {fileID: 926769018}
   slotPrefab: {fileID: 0}
+  totalSlotCount: 10
 --- !u!1 &936414740
 GameObject:
   m_ObjectHideFlags: 0
@@ -5066,8 +5067,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -218, y: 140}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 234.358, y: -3.164}
+  m_SizeDelta: {x: 1004.716, y: 386.327}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1241590386
 MonoBehaviour:
@@ -5084,6 +5085,7 @@ MonoBehaviour:
   inventoryManager: {fileID: 485487163}
   slotsParent: {fileID: 1241590385}
   slotPrefab: {fileID: 745138773160477525, guid: 03bcda0af4f0eda49976bc309211c9d7, type: 3}
+  totalSlotCount: 10
 --- !u!114 &1241590387
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5115,7 +5117,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1241590384}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 440021caacf1d8a4e955d1217f236487, type: 3}
   m_Name: 
