@@ -16,8 +16,9 @@ public class InventoryManager : MonoBehaviour
     {
         // 创建测试物品（需提前在 Resources 目录创建 ItemData 资源）
         ItemData potato = Resources.Load<ItemData>("potato");
+        ItemData onion = Resources.Load<ItemData>("onion");
         AddItem(potato, 5);
-        AddItem(potato, 3); // 叠加后数量为 8
+        AddItem(onion, 3); 
     }
     /// </summary>
     public void AddItem(ItemData item, int count = 1)
