@@ -47,10 +47,15 @@ public class FarmTile : MonoBehaviour
     /// </summary>
     public void PlantCrop(CropData cropData)
     {
-        if (!isPlowed || isPlanted) return; // 必须已翻耕且无作物才能种植
+        if (!isPlowed || isPlanted)
+        {   
+            Debug.Log($"阻止种植：isPlowed={isPlowed}, isPlanted={isPlanted}");
+            return; // 必须已翻耕且无作物才能种植
+            
+        }
 
-        // 检查季节是否允许
-        if (cropData.allowedSeasons != null && cropData.allowedSeasons.Length > 0)
+            // 检查季节是否允许
+            if (cropData.allowedSeasons != null && cropData.allowedSeasons.Length > 0)
         {
             bool seasonOK = false;
             foreach (SeasonManager.Season s in cropData.allowedSeasons)

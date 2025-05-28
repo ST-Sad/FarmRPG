@@ -47,3 +47,6 @@ TagManager:
   - name: FarmTile
     uniqueID: 719619007
     locked: 0
+  - name: Crops
+    uniqueID: 4280993487
+    locked: 0

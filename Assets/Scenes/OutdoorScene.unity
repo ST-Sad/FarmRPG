@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 36733814}
   - component: {fileID: 36733813}
   - component: {fileID: 36733812}
+  - component: {fileID: 36733817}
   m_Layer: 0
   m_Name: FarmTile (21)
   m_TagString: Untagged
@@ -263,13 +264,30 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 36733811}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -21.546, y: -9.4800005, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &36733817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 36733811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64294e1336137249a3be17564256f8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unplowedSprite: {fileID: 2110132857, guid: 3185b45510eca60409808c03ece322e8, type: 3}
+  plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
+  harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
+  harvestedDisplayTime: 3
+  pitOffset: {x: 0.5, y: 0.5}
 --- !u!1 &58133549
 GameObject:
   m_ObjectHideFlags: 0
@@ -357,6 +375,7 @@ GameObject:
   - component: {fileID: 98508397}
   - component: {fileID: 98508396}
   - component: {fileID: 98508395}
+  - component: {fileID: 98508400}
   m_Layer: 0
   m_Name: FarmTile (30)
   m_TagString: Untagged
@@ -486,13 +505,30 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 98508394}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -23.53, y: -8.49, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &98508400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 98508394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64294e1336137249a3be17564256f8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unplowedSprite: {fileID: 2110132857, guid: 3185b45510eca60409808c03ece322e8, type: 3}
+  plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
+  harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
+  harvestedDisplayTime: 3
+  pitOffset: {x: 0.5, y: 0.5}
 --- !u!1 &132239567
 GameObject:
   m_ObjectHideFlags: 0
@@ -573,6 +609,7 @@ GameObject:
   - component: {fileID: 147836947}
   - component: {fileID: 147836946}
   - component: {fileID: 147836945}
+  - component: {fileID: 147836949}
   m_Layer: 0
   m_Name: FarmTile (14)
   m_TagString: Untagged
@@ -709,6 +746,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &147836949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 147836944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64294e1336137249a3be17564256f8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unplowedSprite: {fileID: 2110132857, guid: 3185b45510eca60409808c03ece322e8, type: 3}
+  plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
+  harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
+  harvestedDisplayTime: 3
+  pitOffset: {x: 0.5, y: 0.5}
 --- !u!1 &154917814
 GameObject:
   m_ObjectHideFlags: 0
@@ -721,6 +775,7 @@ GameObject:
   - component: {fileID: 154917817}
   - component: {fileID: 154917816}
   - component: {fileID: 154917815}
+  - component: {fileID: 154917820}
   m_Layer: 0
   m_Name: FarmTile (29)
   m_TagString: Untagged
@@ -850,13 +905,30 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 154917814}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -22.53, y: -10.46, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &154917820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 154917814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64294e1336137249a3be17564256f8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unplowedSprite: {fileID: 2110132857, guid: 3185b45510eca60409808c03ece322e8, type: 3}
+  plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
+  harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
+  harvestedDisplayTime: 3
+  pitOffset: {x: 0.5, y: 0.5}
 --- !u!1 &178333620
 GameObject:
   m_ObjectHideFlags: 0
@@ -869,6 +941,7 @@ GameObject:
   - component: {fileID: 178333623}
   - component: {fileID: 178333622}
   - component: {fileID: 178333621}
+  - component: {fileID: 178333626}
   m_Layer: 0
   m_Name: FarmTile (5)
   m_TagString: Untagged
@@ -998,13 +1071,30 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 178333620}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -16.51, y: -8.49, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &178333626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 178333620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64294e1336137249a3be17564256f8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unplowedSprite: {fileID: 2110132857, guid: 3185b45510eca60409808c03ece322e8, type: 3}
+  plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
+  harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
+  harvestedDisplayTime: 3
+  pitOffset: {x: 0.5, y: 0.5}
 --- !u!1 &193476788
 GameObject:
   m_ObjectHideFlags: 0
@@ -1269,6 +1359,7 @@ GameObject:
   - component: {fileID: 274457310}
   - component: {fileID: 274457309}
   - component: {fileID: 274457308}
+  - component: {fileID: 274457313}
   m_Layer: 0
   m_Name: FarmTile (27)
   m_TagString: Untagged
@@ -1398,13 +1489,30 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 274457307}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -21.53, y: -10.46, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &274457313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 274457307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64294e1336137249a3be17564256f8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unplowedSprite: {fileID: 2110132857, guid: 3185b45510eca60409808c03ece322e8, type: 3}
+  plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
+  harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
+  harvestedDisplayTime: 3
+  pitOffset: {x: 0.5, y: 0.5}
 --- !u!1001 &334654923
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1490,6 +1598,7 @@ GameObject:
   - component: {fileID: 383460212}
   - component: {fileID: 383460211}
   - component: {fileID: 383460210}
+  - component: {fileID: 383460215}
   m_Layer: 0
   m_Name: FarmTile (24)
   m_TagString: Untagged
@@ -1619,13 +1728,30 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 383460209}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -20.55, y: -8.49, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &383460215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 383460209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64294e1336137249a3be17564256f8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unplowedSprite: {fileID: 2110132857, guid: 3185b45510eca60409808c03ece322e8, type: 3}
+  plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
+  harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
+  harvestedDisplayTime: 3
+  pitOffset: {x: 0.5, y: 0.5}
 --- !u!1 &454054164
 GameObject:
   m_ObjectHideFlags: 0
@@ -1713,6 +1839,7 @@ GameObject:
   - component: {fileID: 481712026}
   - component: {fileID: 481712025}
   - component: {fileID: 481712024}
+  - component: {fileID: 481712029}
   m_Layer: 0
   m_Name: FarmTile (15)
   m_TagString: Untagged
@@ -1842,13 +1969,30 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 481712023}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -18.51, y: -10.46, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &481712029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 481712023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64294e1336137249a3be17564256f8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unplowedSprite: {fileID: 2110132857, guid: 3185b45510eca60409808c03ece322e8, type: 3}
+  plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
+  harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
+  harvestedDisplayTime: 3
+  pitOffset: {x: 0.5, y: 0.5}
 --- !u!1 &485487162
 GameObject:
   m_ObjectHideFlags: 0
@@ -2215,6 +2359,7 @@ GameObject:
   - component: {fileID: 598217989}
   - component: {fileID: 598217988}
   - component: {fileID: 598217987}
+  - component: {fileID: 598217992}
   m_Layer: 0
   m_Name: FarmTile (8)
   m_TagString: Untagged
@@ -2344,13 +2489,30 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 598217986}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -18.51, y: -9.4800005, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &598217992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598217986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64294e1336137249a3be17564256f8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unplowedSprite: {fileID: 2110132857, guid: 3185b45510eca60409808c03ece322e8, type: 3}
+  plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
+  harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
+  harvestedDisplayTime: 3
+  pitOffset: {x: 0.5, y: 0.5}
 --- !u!1 &608228526
 GameObject:
   m_ObjectHideFlags: 0
@@ -2701,6 +2863,7 @@ GameObject:
   - component: {fileID: 661207239}
   - component: {fileID: 661207238}
   - component: {fileID: 661207237}
+  - component: {fileID: 661207241}
   m_Layer: 0
   m_Name: FarmTile (31)
   m_TagString: Untagged
@@ -2830,13 +2993,30 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 661207236}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -23.53, y: -10.46, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &661207241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 661207236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64294e1336137249a3be17564256f8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unplowedSprite: {fileID: 2110132857, guid: 3185b45510eca60409808c03ece322e8, type: 3}
+  plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
+  harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
+  harvestedDisplayTime: 3
+  pitOffset: {x: 0.5, y: 0.5}
 --- !u!1 &726031988
 GameObject:
   m_ObjectHideFlags: 0
@@ -3851,6 +4031,7 @@ GameObject:
   - component: {fileID: 936414743}
   - component: {fileID: 936414742}
   - component: {fileID: 936414741}
+  - component: {fileID: 936414746}
   m_Layer: 0
   m_Name: FarmTile
   m_TagString: Untagged
@@ -3980,13 +4161,30 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 936414740}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -18.51, y: -7.51, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &936414746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 936414740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64294e1336137249a3be17564256f8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unplowedSprite: {fileID: 2110132857, guid: 3185b45510eca60409808c03ece322e8, type: 3}
+  plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
+  harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
+  harvestedDisplayTime: 3
+  pitOffset: {x: 0.5, y: 0.5}
 --- !u!1 &938763008
 GameObject:
   m_ObjectHideFlags: 0
@@ -3999,6 +4197,7 @@ GameObject:
   - component: {fileID: 938763011}
   - component: {fileID: 938763010}
   - component: {fileID: 938763009}
+  - component: {fileID: 938763014}
   m_Layer: 0
   m_Name: FarmTile (2)
   m_TagString: Untagged
@@ -4128,13 +4327,30 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 938763008}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -16.526, y: -7.51, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &938763014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938763008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64294e1336137249a3be17564256f8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unplowedSprite: {fileID: 2110132857, guid: 3185b45510eca60409808c03ece322e8, type: 3}
+  plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
+  harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
+  harvestedDisplayTime: 3
+  pitOffset: {x: 0.5, y: 0.5}
 --- !u!1 &970140717
 GameObject:
   m_ObjectHideFlags: 0
@@ -4197,6 +4413,7 @@ GameObject:
   - component: {fileID: 985334411}
   - component: {fileID: 985334410}
   - component: {fileID: 985334409}
+  - component: {fileID: 985334414}
   m_Layer: 0
   m_Name: FarmTile (25)
   m_TagString: Untagged
@@ -4326,13 +4543,30 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 985334408}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -20.55, y: -10.46, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &985334414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 985334408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64294e1336137249a3be17564256f8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unplowedSprite: {fileID: 2110132857, guid: 3185b45510eca60409808c03ece322e8, type: 3}
+  plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
+  harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
+  harvestedDisplayTime: 3
+  pitOffset: {x: 0.5, y: 0.5}
 --- !u!1 &1092698225 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3021571573313040171, guid: 955db1471b185574daf0222c879805a8, type: 3}
@@ -4454,6 +4688,7 @@ GameObject:
   - component: {fileID: 1127916438}
   - component: {fileID: 1127916437}
   - component: {fileID: 1127916436}
+  - component: {fileID: 1127916441}
   m_Layer: 0
   m_Name: FarmTile (13)
   m_TagString: Untagged
@@ -4583,13 +4818,30 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1127916435}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -16.51, y: -10.46, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1127916441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1127916435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64294e1336137249a3be17564256f8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unplowedSprite: {fileID: 2110132857, guid: 3185b45510eca60409808c03ece322e8, type: 3}
+  plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
+  harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
+  harvestedDisplayTime: 3
+  pitOffset: {x: 0.5, y: 0.5}
 --- !u!1 &1159086929
 GameObject:
   m_ObjectHideFlags: 0
@@ -4791,6 +5043,7 @@ GameObject:
   - component: {fileID: 1258590204}
   - component: {fileID: 1258590203}
   - component: {fileID: 1258590202}
+  - component: {fileID: 1258590207}
   m_Layer: 0
   m_Name: FarmTile (10)
   m_TagString: Untagged
@@ -4920,13 +5173,30 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1258590201}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -16.526, y: -9.4800005, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1258590207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1258590201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64294e1336137249a3be17564256f8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unplowedSprite: {fileID: 2110132857, guid: 3185b45510eca60409808c03ece322e8, type: 3}
+  plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
+  harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
+  harvestedDisplayTime: 3
+  pitOffset: {x: 0.5, y: 0.5}
 --- !u!1 &1287401515
 GameObject:
   m_ObjectHideFlags: 0
@@ -4939,6 +5209,7 @@ GameObject:
   - component: {fileID: 1287401518}
   - component: {fileID: 1287401517}
   - component: {fileID: 1287401516}
+  - component: {fileID: 1287401521}
   m_Layer: 0
   m_Name: FarmTile (1)
   m_TagString: Untagged
@@ -5068,13 +5339,30 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1287401515}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -17.522, y: -7.51, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1287401521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1287401515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64294e1336137249a3be17564256f8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unplowedSprite: {fileID: 2110132857, guid: 3185b45510eca60409808c03ece322e8, type: 3}
+  plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
+  harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
+  harvestedDisplayTime: 3
+  pitOffset: {x: 0.5, y: 0.5}
 --- !u!1 &1296034031
 GameObject:
   m_ObjectHideFlags: 0
@@ -5087,6 +5375,7 @@ GameObject:
   - component: {fileID: 1296034034}
   - component: {fileID: 1296034033}
   - component: {fileID: 1296034032}
+  - component: {fileID: 1296034037}
   m_Layer: 0
   m_Name: FarmTile (20)
   m_TagString: Untagged
@@ -5216,13 +5505,30 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1296034031}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -21.546, y: -7.51, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1296034037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1296034031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64294e1336137249a3be17564256f8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unplowedSprite: {fileID: 2110132857, guid: 3185b45510eca60409808c03ece322e8, type: 3}
+  plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
+  harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
+  harvestedDisplayTime: 3
+  pitOffset: {x: 0.5, y: 0.5}
 --- !u!1 &1322999689
 GameObject:
   m_ObjectHideFlags: 0
@@ -5355,6 +5661,7 @@ GameObject:
   - component: {fileID: 1401491312}
   - component: {fileID: 1401491311}
   - component: {fileID: 1401491310}
+  - component: {fileID: 1401491315}
   m_Layer: 0
   m_Name: FarmTile (17)
   m_TagString: Untagged
@@ -5484,13 +5791,30 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1401491309}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -23.53, y: -9.4800005, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1401491315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401491309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64294e1336137249a3be17564256f8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unplowedSprite: {fileID: 2110132857, guid: 3185b45510eca60409808c03ece322e8, type: 3}
+  plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
+  harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
+  harvestedDisplayTime: 3
+  pitOffset: {x: 0.5, y: 0.5}
 --- !u!1 &1428432289
 GameObject:
   m_ObjectHideFlags: 0
@@ -5503,6 +5827,7 @@ GameObject:
   - component: {fileID: 1428432292}
   - component: {fileID: 1428432291}
   - component: {fileID: 1428432290}
+  - component: {fileID: 1428432295}
   m_Layer: 0
   m_Name: FarmTile (18)
   m_TagString: Untagged
@@ -5632,13 +5957,30 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1428432289}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -22.542, y: -7.51, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1428432295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1428432289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64294e1336137249a3be17564256f8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unplowedSprite: {fileID: 2110132857, guid: 3185b45510eca60409808c03ece322e8, type: 3}
+  plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
+  harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
+  harvestedDisplayTime: 3
+  pitOffset: {x: 0.5, y: 0.5}
 --- !u!1 &1488076518
 GameObject:
   m_ObjectHideFlags: 0
@@ -5726,6 +6068,7 @@ GameObject:
   - component: {fileID: 1499027022}
   - component: {fileID: 1499027021}
   - component: {fileID: 1499027020}
+  - component: {fileID: 1499027025}
   m_Layer: 0
   m_Name: FarmTile (23)
   m_TagString: Untagged
@@ -5855,13 +6198,30 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1499027019}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -20.55, y: -9.4800005, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1499027025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1499027019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64294e1336137249a3be17564256f8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unplowedSprite: {fileID: 2110132857, guid: 3185b45510eca60409808c03ece322e8, type: 3}
+  plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
+  harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
+  harvestedDisplayTime: 3
+  pitOffset: {x: 0.5, y: 0.5}
 --- !u!1 &1538668430
 GameObject:
   m_ObjectHideFlags: 0
@@ -5949,6 +6309,7 @@ GameObject:
   - component: {fileID: 1554165281}
   - component: {fileID: 1554165280}
   - component: {fileID: 1554165279}
+  - component: {fileID: 1554165284}
   m_Layer: 0
   m_Name: FarmTile (7)
   m_TagString: Untagged
@@ -6078,13 +6439,30 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1554165278}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -18.51, y: -8.49, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1554165284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1554165278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64294e1336137249a3be17564256f8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unplowedSprite: {fileID: 2110132857, guid: 3185b45510eca60409808c03ece322e8, type: 3}
+  plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
+  harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
+  harvestedDisplayTime: 3
+  pitOffset: {x: 0.5, y: 0.5}
 --- !u!1 &1563176742
 GameObject:
   m_ObjectHideFlags: 0
@@ -6097,6 +6475,7 @@ GameObject:
   - component: {fileID: 1563176745}
   - component: {fileID: 1563176744}
   - component: {fileID: 1563176743}
+  - component: {fileID: 1563176748}
   m_Layer: 0
   m_Name: FarmTile (9)
   m_TagString: Untagged
@@ -6226,13 +6605,30 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1563176742}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -17.522, y: -9.4800005, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1563176748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1563176742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64294e1336137249a3be17564256f8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unplowedSprite: {fileID: 2110132857, guid: 3185b45510eca60409808c03ece322e8, type: 3}
+  plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
+  harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
+  harvestedDisplayTime: 3
+  pitOffset: {x: 0.5, y: 0.5}
 --- !u!1 &1584647956
 GameObject:
   m_ObjectHideFlags: 0
@@ -51971,6 +52367,7 @@ GameObject:
   - component: {fileID: 1590105104}
   - component: {fileID: 1590105103}
   - component: {fileID: 1590105102}
+  - component: {fileID: 1590105107}
   m_Layer: 0
   m_Name: FarmTile (19)
   m_TagString: Untagged
@@ -52100,13 +52497,30 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1590105101}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -22.542, y: -9.4800005, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1590105107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1590105101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64294e1336137249a3be17564256f8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unplowedSprite: {fileID: 2110132857, guid: 3185b45510eca60409808c03ece322e8, type: 3}
+  plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
+  harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
+  harvestedDisplayTime: 3
+  pitOffset: {x: 0.5, y: 0.5}
 --- !u!1 &1595245874
 GameObject:
   m_ObjectHideFlags: 0
@@ -52269,6 +52683,7 @@ GameObject:
   - component: {fileID: 1618834105}
   - component: {fileID: 1618834104}
   - component: {fileID: 1618834103}
+  - component: {fileID: 1618834108}
   m_Layer: 0
   m_Name: FarmTile (22)
   m_TagString: Untagged
@@ -52398,13 +52813,30 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1618834102}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -20.55, y: -7.51, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1618834108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618834102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64294e1336137249a3be17564256f8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unplowedSprite: {fileID: 2110132857, guid: 3185b45510eca60409808c03ece322e8, type: 3}
+  plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
+  harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
+  harvestedDisplayTime: 3
+  pitOffset: {x: 0.5, y: 0.5}
 --- !u!1 &1624513431
 GameObject:
   m_ObjectHideFlags: 0
@@ -52599,6 +53031,7 @@ GameObject:
   - component: {fileID: 1640230246}
   - component: {fileID: 1640230245}
   - component: {fileID: 1640230244}
+  - component: {fileID: 1640230249}
   m_Layer: 0
   m_Name: FarmTile (16)
   m_TagString: Untagged
@@ -52728,13 +53161,30 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1640230243}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -23.53, y: -7.51, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1640230249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640230243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64294e1336137249a3be17564256f8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unplowedSprite: {fileID: 2110132857, guid: 3185b45510eca60409808c03ece322e8, type: 3}
+  plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
+  harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
+  harvestedDisplayTime: 3
+  pitOffset: {x: 0.5, y: 0.5}
 --- !u!1 &1673783792
 GameObject:
   m_ObjectHideFlags: 0
@@ -52747,6 +53197,7 @@ GameObject:
   - component: {fileID: 1673783795}
   - component: {fileID: 1673783794}
   - component: {fileID: 1673783793}
+  - component: {fileID: 1673783798}
   m_Layer: 0
   m_Name: FarmTile (4)
   m_TagString: Untagged
@@ -52876,13 +53327,30 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1673783792}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -15.53, y: -8.49, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1673783798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673783792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64294e1336137249a3be17564256f8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unplowedSprite: {fileID: 2110132857, guid: 3185b45510eca60409808c03ece322e8, type: 3}
+  plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
+  harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
+  harvestedDisplayTime: 3
+  pitOffset: {x: 0.5, y: 0.5}
 --- !u!1 &1710104662
 GameObject:
   m_ObjectHideFlags: 0
@@ -56440,7 +56908,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f179e70c8d63c744976a3c82942ec21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedCrop: {fileID: 11400000, guid: 96dad2fa3196b084489901874761711b, type: 2}
+  selectedCrop: {fileID: 11400000, guid: 79deea97748185f49934580c6477db0d, type: 2}
   inventoryManager: {fileID: 485487163}
   playerStats: {fileID: 1092698243}
 --- !u!4 &1761761877
@@ -56545,6 +57013,7 @@ GameObject:
   - component: {fileID: 1829405431}
   - component: {fileID: 1829405430}
   - component: {fileID: 1829405429}
+  - component: {fileID: 1829405434}
   m_Layer: 0
   m_Name: FarmTile (26)
   m_TagString: Untagged
@@ -56674,8 +57143,70 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1829405428}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -21.53, y: -8.49, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1829405434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1829405428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64294e1336137249a3be17564256f8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unplowedSprite: {fileID: 2110132857, guid: 3185b45510eca60409808c03ece322e8, type: 3}
+  plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
+  harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
+  harvestedDisplayTime: 3
+  pitOffset: {x: 0.5, y: 0.5}
+--- !u!1 &1833576920
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1833576922}
+  - component: {fileID: 1833576921}
+  m_Layer: 0
+  m_Name: SeasonManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1833576921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833576920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd3c16d893f278c458f930612c84eedc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingSeason: 0
+--- !u!4 &1833576922
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833576920}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -15.135435, y: -6.8645062, z: -0.12484507}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -56693,6 +57224,7 @@ GameObject:
   - component: {fileID: 1839094619}
   - component: {fileID: 1839094618}
   - component: {fileID: 1839094617}
+  - component: {fileID: 1839094622}
   m_Layer: 0
   m_Name: FarmTile (6)
   m_TagString: Untagged
@@ -56822,13 +57354,30 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1839094616}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -17.51, y: -8.49, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1839094622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839094616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64294e1336137249a3be17564256f8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unplowedSprite: {fileID: 2110132857, guid: 3185b45510eca60409808c03ece322e8, type: 3}
+  plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
+  harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
+  harvestedDisplayTime: 3
+  pitOffset: {x: 0.5, y: 0.5}
 --- !u!1 &1848295366
 GameObject:
   m_ObjectHideFlags: 0
@@ -74264,6 +74813,7 @@ GameObject:
   - component: {fileID: 1970534435}
   - component: {fileID: 1970534434}
   - component: {fileID: 1970534433}
+  - component: {fileID: 1970534438}
   m_Layer: 0
   m_Name: FarmTile (11)
   m_TagString: Untagged
@@ -74393,13 +74943,30 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1970534432}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -15.53, y: -9.4800005, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1970534438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970534432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64294e1336137249a3be17564256f8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unplowedSprite: {fileID: 2110132857, guid: 3185b45510eca60409808c03ece322e8, type: 3}
+  plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
+  harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
+  harvestedDisplayTime: 3
+  pitOffset: {x: 0.5, y: 0.5}
 --- !u!1 &1995242941
 GameObject:
   m_ObjectHideFlags: 0
@@ -74412,6 +74979,7 @@ GameObject:
   - component: {fileID: 1995242944}
   - component: {fileID: 1995242943}
   - component: {fileID: 1995242942}
+  - component: {fileID: 1995242947}
   m_Layer: 0
   m_Name: FarmTile (3)
   m_TagString: Untagged
@@ -74541,13 +75109,30 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1995242941}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -15.53, y: -7.51, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1995242947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1995242941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64294e1336137249a3be17564256f8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unplowedSprite: {fileID: 2110132857, guid: 3185b45510eca60409808c03ece322e8, type: 3}
+  plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
+  harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
+  harvestedDisplayTime: 3
+  pitOffset: {x: 0, y: 0}
 --- !u!1 &1996946092
 GameObject:
   m_ObjectHideFlags: 0
@@ -74710,6 +75295,7 @@ GameObject:
   - component: {fileID: 2090351011}
   - component: {fileID: 2090351010}
   - component: {fileID: 2090351009}
+  - component: {fileID: 2090351014}
   m_Layer: 0
   m_Name: FarmTile (12)
   m_TagString: Untagged
@@ -74839,13 +75425,30 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2090351008}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -15.53, y: -10.46, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2090351014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2090351008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64294e1336137249a3be17564256f8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unplowedSprite: {fileID: 2110132857, guid: 3185b45510eca60409808c03ece322e8, type: 3}
+  plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
+  harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
+  harvestedDisplayTime: 3
+  pitOffset: {x: 0.5, y: 0.5}
 --- !u!1 &2096055854
 GameObject:
   m_ObjectHideFlags: 0
@@ -75035,6 +75638,7 @@ GameObject:
   - component: {fileID: 2115652295}
   - component: {fileID: 2115652294}
   - component: {fileID: 2115652293}
+  - component: {fileID: 2115652298}
   m_Layer: 0
   m_Name: FarmTile (28)
   m_TagString: Untagged
@@ -75164,13 +75768,30 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2115652292}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -22.53, y: -8.49, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2115652298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2115652292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64294e1336137249a3be17564256f8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unplowedSprite: {fileID: 2110132857, guid: 3185b45510eca60409808c03ece322e8, type: 3}
+  plowedSprite: {fileID: -362202999, guid: d51fce626c147924e80b1325af40f715, type: 3}
+  harvestedPitPrefab: {fileID: 3013407387843004986, guid: 4b39c56cc3f970d44b45254ce9a83e7e, type: 3}
+  harvestedDisplayTime: 3
+  pitOffset: {x: 0.5, y: 0.5}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -75189,8 +75810,8 @@ SceneRoots:
   - {fileID: 936414744}
   - {fileID: 1640230247}
   - {fileID: 598217990}
-  - {fileID: 1401491313}
   - {fileID: 1287401519}
+  - {fileID: 1401491313}
   - {fileID: 1428432293}
   - {fileID: 1563176746}
   - {fileID: 1590105105}
@@ -75200,8 +75821,8 @@ SceneRoots:
   - {fileID: 36733815}
   - {fileID: 1995242945}
   - {fileID: 1618834106}
-  - {fileID: 1970534436}
   - {fileID: 1499027023}
+  - {fileID: 1970534436}
   - {fileID: 1673783796}
   - {fileID: 383460213}
   - {fileID: 2090351012}
@@ -75212,10 +75833,11 @@ SceneRoots:
   - {fileID: 274457311}
   - {fileID: 1839094620}
   - {fileID: 2115652296}
-  - {fileID: 147836948}
   - {fileID: 154917818}
   - {fileID: 1554165282}
   - {fileID: 98508398}
   - {fileID: 481712027}
   - {fileID: 661207240}
+  - {fileID: 147836948}
   - {fileID: 1761761877}
+  - {fileID: 1833576922}

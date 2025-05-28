@@ -21,10 +21,24 @@ public class PlantingManager : MonoBehaviour
         {
             FarmTile tile = hit.collider.GetComponent<FarmTile>();
 
+            // 按F键翻耕
+            if (Input.GetKeyDown(KeyCode.F) && hit.collider != null)
+            {
+               
+                if (tile != null && !tile.isPlowed)
+                {
+                    tile.Plow();
+                    Debug.Log("翻耕成功！");
+                }
+            }
+
+
+
             // 左键：种植作物
             if (Input.GetMouseButtonDown(0) && selectedCrop != null && tile != null)
             {
                 tile.PlantCrop(selectedCrop);
+                Debug.Log("种植尝试...");
             }
             // 右键：收获成熟作物
             if (Input.GetMouseButtonDown(1) && tile != null && tile.isPlanted && tile.currentCrop != null)

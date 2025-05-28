@@ -18,29 +18,12 @@ MonoBehaviour:
   - {fileID: -1026741493, guid: 3cb915ae75d7e7440a8ec2fe8498eeda, type: 3}
   - {fileID: -363344946, guid: 3cb915ae75d7e7440a8ec2fe8498eeda, type: 3}
   - {fileID: -1257106340, guid: 3cb915ae75d7e7440a8ec2fe8498eeda, type: 3}
-  - {fileID: -1701001741, guid: 3cb915ae75d7e7440a8ec2fe8498eeda, type: 3}
   stageGrowthTime:
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  allowedSeasons: 
+  - 5
+  - 5
+  - 5
+  - 5
+  allowedSeasons: 00000000010000000200000003000000
   produceItem: {fileID: 11400000, guid: e149e0aaa656cc64b9935c502df000d7, type: 2}
   baseYield: 2
   fertilizerYieldBonus: 1

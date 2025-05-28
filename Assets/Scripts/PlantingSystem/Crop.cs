@@ -32,6 +32,9 @@ public class Crop : MonoBehaviour
 
     void Update()
     {
+        
+
+
         if (isGrown || data.growthStages == null || data.stageGrowthTime == null) return;
         float delta = Time.deltaTime;
         // 根据浇水与施肥情况加速生长
