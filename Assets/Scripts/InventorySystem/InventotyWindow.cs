@@ -4,7 +4,7 @@ using UnityEngine.EventSystems;
 public class InventoryWindow : MonoBehaviour
 {
     public KeyCode toggleKey = KeyCode.I; // 切换按键（默认 I 键）
-    private bool isOpen = true; // 背包实际状态（显示为默认）
+    private bool isOpen = false; // 背包实际状态（显示为默认）
     private Canvas canvas; // Canvas 组件引用
     private InventoryUI inventoryUI; // InventoryUI 组件引用
     private InventoryManager inventoryManager; // 新增：InventoryManager 引用
@@ -15,6 +15,8 @@ public class InventoryWindow : MonoBehaviour
         canvas = GetComponent<Canvas>();
         if (canvas == null)
         {
+            canvas = GetComponentInChildren<Canvas>(true);
+            if (canvas == null)
             Debug.LogError("InventoryWindow: Canvas component not found on " + gameObject.name);
         }
 

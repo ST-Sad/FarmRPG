@@ -17,7 +17,7 @@ public class MapManager : MonoBehaviour
     [SerializeField] private List<MapInfo> mapDatabase = new List<MapInfo>();
     [SerializeField] private Transform player;
     private Dictionary<string, MapInfo> mapDictionary = new Dictionary<string, MapInfo>();
-    private string currentMapName="Untitled";
+    private string currentMapName= "MyHome";
 
 
     private void Awake()

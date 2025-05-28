@@ -198,7 +198,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70fa222cfd8d94d42909315f2947bfd2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseData: {fileID: 0}
+  baseData: {fileID: 11400000, guid: c9ee6c798812a79459b0e741441d08e5, type: 2}
   maxHealth: 0
   currentHealth: 0
   attack: 0
