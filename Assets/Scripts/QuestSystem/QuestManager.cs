@@ -29,6 +29,16 @@ public class QuestManager : MonoBehaviour
     }
     public bool AcceptQuest(QuestData questData)
     {
+        if (questData == null)
+        {
+            Debug.LogError("questData is null in AcceptQuest!");
+            return false;
+        }
+
+        // 确保字典已初始化
+        if (activeQuests == null) activeQuests = new Dictionary<string, Quest>();
+        if (completedQuests == null) completedQuests = new Dictionary<string, Quest>();
+
         // 检查是否已接受或已完成
         if (activeQuests.ContainsKey(questData.questID) ||
             completedQuests.ContainsKey(questData.questID))
@@ -38,8 +48,21 @@ public class QuestManager : MonoBehaviour
         }
 
         // 检查前置任务
+
+        // 检查前置任务
+        if (questData.prerequisiteQuests == null)
+        {
+            questData.prerequisiteQuests = new List<QuestData>();
+            Debug.LogWarning("questData.prerequisiteQuests is null, initialized as empty list.");
+        }
         foreach (var prereq in questData.prerequisiteQuests)
         {
+
+            if (prereq == null)
+            {
+                Debug.LogWarning("Null prerequisite quest found, skipping.");
+                continue;
+            }
             if (!completedQuests.ContainsKey(prereq.questID))
             {
                 Debug.LogWarning($"需要先完成前置任务: {prereq.title}");

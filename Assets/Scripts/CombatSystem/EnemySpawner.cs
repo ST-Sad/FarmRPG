@@ -28,15 +28,15 @@ public class EnemySpawner : MonoBehaviour
     void Update()
     {
         GameObject[] monsters = GameObject.FindGameObjectsWithTag("Enemy");
-        Debug.Log($"Current enemy count: {monsters.Length}, Max limit: {maxMonsters}");
+        //Debug.Log($"Current enemy count: {monsters.Length}, Max limit: {maxMonsters}");
         if (monsters.Length >= maxMonsters) return;
 
-        Debug.Log($"Time.time: {Time.time}, nextSpawnTime: {nextSpawnTime}");
+       // Debug.Log($"Time.time: {Time.time}, nextSpawnTime: {nextSpawnTime}");
         if (Time.time >= nextSpawnTime)
         {
             SpawnMonster();
             nextSpawnTime = Time.time + spawnInterval;
-            Debug.Log($"Spawned monster, next spawn at: {nextSpawnTime}");
+           // Debug.Log($"Spawned monster, next spawn at: {nextSpawnTime}");
         }
     }
 
@@ -44,14 +44,14 @@ public class EnemySpawner : MonoBehaviour
     {
         if (enemyPrefab == null)
         {
-            Debug.LogError("enemyPrefab is null! Cannot spawn monster.");
+            //Debug.LogError("enemyPrefab is null! Cannot spawn monster.");
             return;
         }
-        Debug.Log("Spawning monster with prefab: " + enemyPrefab.name);
+       // Debug.Log("Spawning monster with prefab: " + enemyPrefab.name);
         Vector2 randomOffset = Random.insideUnitCircle * spawnRadius;
         Vector2 spawnPos = (Vector2)transform.position + randomOffset;
         GameObject newEnemy = Instantiate(enemyPrefab, spawnPos, Quaternion.identity);
-        Debug.Log("Spawned enemy at position: " + newEnemy.transform.position);
+       // Debug.Log("Spawned enemy at position: " + newEnemy.transform.position);
     }
 
     void OnDrawGizmosSelected()

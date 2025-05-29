@@ -48,11 +48,17 @@ public class NPCQuestGiver : MonoBehaviour
     {
         if (status == QuestStatus.NotAccepted)
         {
+           
+
             // 尝试接受任务
             if (QuestManager.Instance.AcceptQuest(questToGive))
             {
+                Debug.Log("Task successfully accepted!");
+
                 // 任务接受成功
             }
+
+            else Debug.LogWarning("Failed to accept task!");
         }
         else if (status == QuestStatus.InProgress && completesQuest)
         {

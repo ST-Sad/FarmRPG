@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: B
+  m_EditorClassIdentifier: Assembly-CSharp::QuestData
+  questID: 2
+  title: "\u79CD\u4E94\u4E2A\u80E1\u841D\u535C"
+  description: "\u79CD\u4E94\u4E2A\u80E1\u841D\u535C"
+  icon: {fileID: 1741053716, guid: 3cb915ae75d7e7440a8ec2fe8498eeda, type: 3}
+  objectives:
+  - type: 0
+    targetID: 2
+    requiredAmount: 5
+    description: "\u79CD\u4E94\u4E2A\u80E1\u841D\u535C"
+  rewards:
+  - item: {fileID: 11400000, guid: e149e0aaa656cc64b9935c502df000d7, type: 2}
+    amount: 1
+    experience: 10
+  prerequisiteQuests: []
