@@ -2954,6 +2954,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6630799267340816654, guid: 876f22a24df92604993fdb8283371bb2, type: 3}
+      propertyPath: totalSlotCount
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630799267340816654, guid: 876f22a24df92604993fdb8283371bb2, type: 3}
       propertyPath: inventoryManager
       value: 
       objectReference: {fileID: 1524575804}
