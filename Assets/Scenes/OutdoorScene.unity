@@ -2376,7 +2376,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1135095815
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -321819360, guid: ca9ce7cf6dcfaf64d82f98223e595db9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3257,8 +3257,8 @@ PolygonCollider2D:
       - {x: -2.1807976, y: 1.7287254}
       - {x: -2.1709352, y: -1.6843133}
       - {x: -1.9194046, y: -3.3568172}
-      - {x: -0.4981563, y: -3.5720453}
-      - {x: 0.49238053, y: -3.558869}
+      - {x: -0.46858284, y: -3.2452548}
+      - {x: 0.49238053, y: -3.2320788}
       - {x: 1.9194046, y: -3.3620443}
       - {x: 2.1489074, y: -1.6340837}
       - {x: 2.1480668, y: 2.0013666}
@@ -3546,6 +3546,8 @@ PolygonCollider2D:
       - {x: -3.34375, y: 0.4054991}
       - {x: -3.1875, y: -1.9375}
       - {x: -3.09375, y: -2.03125}
+      - {x: -1.2744614, y: -1.8153151}
+      - {x: -0.40111256, y: -1.8205713}
       - {x: 1.4375, y: -2.03125}
       - {x: 1.4771373, y: -1.8750622}
       - {x: 1.493913, y: -1.437657}
@@ -56523,7 +56525,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 4294967295
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -75218,7 +75220,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2100086590}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
@@ -75228,7 +75230,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 18.51, y: 7.51}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
 --- !u!1 &2115652292
