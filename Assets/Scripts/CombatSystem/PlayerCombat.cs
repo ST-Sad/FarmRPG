@@ -27,6 +27,7 @@ public class PlayerCombat : MonoBehaviour
         // ÆÕÍ¨¹¥»÷£º¿Õ¸ñ¼ü´¥·¢
         if (Input.GetKeyDown(KeyCode.Space) && Time.time >= nextAttackTime)
         {
+            Debug.Log("Space key detected, calling Attack()");
             Attack();
             nextAttackTime = Time.time + 1f / attackRate;
         }
