@@ -16,6 +16,11 @@ public class CharacterStats : MonoBehaviour
     [HideInInspector] public int currentExp = 0;
     [HideInInspector] public int expToNextLevel = 100;
 
+    //攻击状态检测
+    public event System.Action OnTakeDamage;
+   
+
+
     void Start()
     {
         // 应用基础数据初始化属性
@@ -48,6 +53,8 @@ public class CharacterStats : MonoBehaviour
             currentHealth = 0;
             Die();
         }
+
+        OnTakeDamage?.Invoke();
     }
 
     /// <summary>

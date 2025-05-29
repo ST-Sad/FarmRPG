@@ -17,6 +17,9 @@ public class EnemyAI : MonoBehaviour
     private Vector2 startPos;
     private Vector2 patrolTarget;
 
+    // 添加一个公共 getter 属性
+    public Vector2 PatrolTarget => patrolTarget;
+
     void Start()
     {
         player = GameObject.FindWithTag("Player")?.transform;
