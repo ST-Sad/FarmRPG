@@ -8,6 +8,7 @@ public class SettingsPanel : abstractUIPanel
     [SerializeField] private Slider masterVolumeSlider;
     [SerializeField] private Slider musicVolumeSlider;
     [SerializeField] private Button backButton;
+    [SerializeField] private AudioSource bgmAudioSource;
 
     protected void Awake()
     {
@@ -19,14 +20,14 @@ public class SettingsPanel : abstractUIPanel
     {
         // 从AudioManager加载当前音量设置
     }
-/*
-    public void OnMasterVolumeChanged(float value)
-    {
-       
-    }
+    /*
+        public void OnMasterVolumeChanged(float value)
+        {
+
+        }*/
 
     public void OnMusicVolumeChanged(float value)
     {
-       
-    }*/
+        bgmAudioSource.volume = value;
+    }
 }
