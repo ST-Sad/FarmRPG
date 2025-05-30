@@ -95,7 +95,280 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Outdoors_Tileset-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1064
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ad793181078cf4dae01b6b83d4abf9
+      internalID: -544391017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoors_Tileset-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 721
+        width: 83
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be504713eeeebb240a2b651a1f79012c
+      internalID: 1401098936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoors_Tileset-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 721
+        width: 83
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c04adb416a32eb4293e0240f2b2c4d0
+      internalID: -847697777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoors_Tileset-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 473
+        width: 193
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7b82598c04bd44dbf68112ea5d9756
+      internalID: -1214554979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoors_Tileset-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 911
+        width: 26
+        height: 27
+      alignment: 9
+      pivot: {x: 0.49569318, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0168c817f0caee94f97f9af7881131d4
+      internalID: -1974902700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoors_Tileset-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 858
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb2538324927504badea8cd1765d2eb
+      internalID: -1816178946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoors_Tileset-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 138
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdae7c50990a0984eb3669c7b7164144
+      internalID: -1851151561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoors_Tileset-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 32
+        width: 42
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61debcf6eb5d584bac29e8203faf5f8
+      internalID: -706499691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoors_Tileset-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1104
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe26f04722afa14c8bf4a8e542fce80
+      internalID: -1758824849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoors_Tileset-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 1106
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c4a876b1d00090479402a4601f31216
+      internalID: 1647297448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoors_Tileset-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1106
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c711a4c57c61344985a5eee675ce8f8
+      internalID: 143830001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoors_Tileset-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1107
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e4b3268b9c8ed4aa567084cc18ade7
+      internalID: 1212346677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outdoors_Tileset-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 911
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579e73ee27c8e3e40bd525174966a1ca
+      internalID: -1234993089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +379,20 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Outdoors_Tileset-removebg-preview_0: -544391017
+      Outdoors_Tileset-removebg-preview_1: 1401098936
+      Outdoors_Tileset-removebg-preview_10: 143830001
+      Outdoors_Tileset-removebg-preview_11: 1212346677
+      Outdoors_Tileset-removebg-preview_12: -1234993089
+      Outdoors_Tileset-removebg-preview_2: -847697777
+      Outdoors_Tileset-removebg-preview_3: -1214554979
+      Outdoors_Tileset-removebg-preview_4: -1974902700
+      Outdoors_Tileset-removebg-preview_5: -1816178946
+      Outdoors_Tileset-removebg-preview_6: -1851151561
+      Outdoors_Tileset-removebg-preview_7: -706499691
+      Outdoors_Tileset-removebg-preview_8: -1758824849
+      Outdoors_Tileset-removebg-preview_9: 1647297448
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
