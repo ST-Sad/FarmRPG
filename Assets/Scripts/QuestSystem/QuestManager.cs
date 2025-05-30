@@ -13,7 +13,7 @@ public class QuestManager : MonoBehaviour
     public UnityEvent<Quest> OnQuestCompleted = new UnityEvent<Quest>();
     public InventoryManager InventoryManager;
     public CharacterStats CharacterStats;
-    private Dictionary<string, Quest> activeQuests = new Dictionary<string, Quest>();
+    public Dictionary<string, Quest> activeQuests = new Dictionary<string, Quest>();
     private Dictionary<string, Quest> completedQuests = new Dictionary<string, Quest>();
     private void Awake()
     {
@@ -86,6 +86,7 @@ public class QuestManager : MonoBehaviour
             if (q.currentProgress.ContainsKey(objectiveKey))
             {
                 CompleteQuest(q);
+                return;
             }
             else
             {

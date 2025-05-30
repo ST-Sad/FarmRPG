@@ -36,6 +36,7 @@ public class NPCQuestGiver : MonoBehaviour
 
     public void Interact()
     {
+        if(n>=questToGive.Count) return;
         QuestStatus status = QuestManager.Instance.GetQuestStatus(questToGive[n].questID);
 
         // 根据任务状态选择对话
