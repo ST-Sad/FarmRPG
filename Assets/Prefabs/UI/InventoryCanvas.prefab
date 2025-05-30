@@ -289,7 +289,7 @@ MonoBehaviour:
   inventoryManager: {fileID: 0}
   slotsParent: {fileID: 627652650581934171}
   slotPrefab: {fileID: 745138773160477525, guid: 03bcda0af4f0eda49976bc309211c9d7, type: 3}
-  totalSlotCount: 10
+  totalSlotCount: 21
 --- !u!223 &3449603569021852659
 Canvas:
   m_ObjectHideFlags: 0
@@ -409,7 +409,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1487755797960457218
 RectTransform:
   m_ObjectHideFlags: 0
