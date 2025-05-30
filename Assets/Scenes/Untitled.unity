@@ -1507,7 +1507,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bgmSource: {fileID: 1153475074}
-  defaultBGM: {fileID: 0}
+  defaultBGM: {fileID: 8300000, guid: 90ba65f5a4cc7fa458e8b3f1a8151366, type: 3}
   initialPoolSize: 5
   sfxPool:
   - {fileID: 1153475072}
