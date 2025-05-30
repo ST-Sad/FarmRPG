@@ -12,14 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: NewQuest
   m_EditorClassIdentifier: Assembly-CSharp::QuestData
-  questID: Talk
-  title: "\u4EA4\u8C08\u4EFB\u52A1"
-  description: "\u8FD9\u662F\u4E00\u4E2A\u4EA4\u8C08\u4EFB\u52A1"
-  icon: {fileID: 0}
+  questID: talk
+  title: Talk
+  description: "\u548CNPC2\u4EA4\u8C08"
+  icon: {fileID: -817024136, guid: 7ec8848bd9f9c06489216aa744343255, type: 3}
   objectives:
-  - type: 0
+  - type: 2
     targetID: Npc2
     requiredAmount: 1
-    description: "\u627Enpc2\u8C08\u8BDD"
-  rewards: []
+    description: "\u548CNpc2\u4EA4\u8C08"
+  rewards:
+  - item: {fileID: 11400000, guid: aa87b8fe0ce646b4f8e5d82b59da0fea, type: 2}
+    amount: 1
+    experience: 50
   prerequisiteQuests: []

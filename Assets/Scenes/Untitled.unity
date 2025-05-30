@@ -1091,8 +1091,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questDatabase:
-  - {fileID: 11400000, guid: 56845413285c656428bc4be4425e9fef, type: 2}
-  - {fileID: 11400000, guid: 46015de3325c2dc49a41f632ce444cb8, type: 2}
+  - {fileID: 11400000, guid: 3f0dbb4438ffeab43b682c867492e95e, type: 2}
   OnQuestAccepted:
     m_PersistentCalls:
       m_Calls: []
@@ -2581,7 +2580,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4728561383052474288, guid: 067c323fba35d6f4da4ef40486006583, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5232982588922714533, guid: 067c323fba35d6f4da4ef40486006583, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -2872,13 +2871,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2471546066695278556, guid: b9514a87b9ba2294ebfe9e45aa12deae, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3025478997259801916, guid: b9514a87b9ba2294ebfe9e45aa12deae, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780313186786712399, guid: b9514a87b9ba2294ebfe9e45aa12deae, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7857580544255257506, guid: b9514a87b9ba2294ebfe9e45aa12deae, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9022221837067826227, guid: b9514a87b9ba2294ebfe9e45aa12deae, type: 3}
       propertyPath: m_Name
       value: QuestPanel
       objectReference: {fileID: 0}
     - target: {fileID: 9022221837067826227, guid: b9514a87b9ba2294ebfe9e45aa12deae, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
