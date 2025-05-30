@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75297e492e9ef7d46927ec45c7ba4fd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueData: {fileID: 11400000, guid: 368cff06c77e056449722a95fd501ef0, type: 2}
+  dialogueData: {fileID: 0}
   autoTrigger: 0
   interactionKey: 101
   interactionRange: 2
@@ -115,11 +115,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b67e27f8b3b0d5e4d9a67345b219df86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questToGive: {fileID: 11400000, guid: 2313992d524cc284d9ac2e61ddc80e3f, type: 2}
+  questToGive:
+  - {fileID: 11400000, guid: 3f0dbb4438ffeab43b682c867492e95e, type: 2}
   completesQuest: 1
-  beforeQuestDialogue: {fileID: 11400000, guid: 368cff06c77e056449722a95fd501ef0, type: 2}
-  duringQuestDialogue: {fileID: 11400000, guid: ce02636ead77cd44f956bd6479b308b1, type: 2}
-  afterQuestDialogue: {fileID: 11400000, guid: 8e30503fbf7d8804fa23d5342dbd220f, type: 2}
+  beforeQuestDialogue:
+  - {fileID: 11400000, guid: 368cff06c77e056449722a95fd501ef0, type: 2}
+  duringQuestDialogue:
+  - {fileID: 11400000, guid: ce02636ead77cd44f956bd6479b308b1, type: 2}
+  afterQuestDialogue:
+  - {fileID: 11400000, guid: 8e30503fbf7d8804fa23d5342dbd220f, type: 2}
+  interactionKey: 101
 --- !u!61 &1350844632672104621
 BoxCollider2D:
   m_ObjectHideFlags: 0

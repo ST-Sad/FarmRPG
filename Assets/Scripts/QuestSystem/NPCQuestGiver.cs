@@ -13,7 +13,7 @@ public class NPCQuestGiver : MonoBehaviour
     public List<DialogueData> duringQuestDialogue;
     public List<DialogueData> afterQuestDialogue;
     public KeyCode interactionKey = KeyCode.E;
-    private static int n=0;
+    private  int n=0;
 
     private GameObject player;
     private bool playerInRange = false;
