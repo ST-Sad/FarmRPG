@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7c1dbf382138bf34ea2cf6db6dfd0745, type: 3}
-  m_Name: choose2
+  m_Name: NPC2_DuringQuest
   m_EditorClassIdentifier: 
-  dialogueID: 05
+  dialogueID: NPC2_DuringQuest
   lines:
-  - speakerName: Sam
-    content: "\u7ED9\u4F60\u7EA2\u82F9\u679C\u3002"
-    portrait: {fileID: 2060977503, guid: 40e1154306e95ee4bb8ecec28687be5f, type: 3}
+  - speakerName: NPC2
+    content: "\u54E6\uFF0CNPC\u8BA9\u4F60\u6765\u7684\uFF1F\u597D\u7684\uFF0C\u6211\u4EEC\u8C08\u8FC7\u4E86\u3002\u4F60\u53EF\u4EE5\u56DE\u53BB\u627E\u4ED6\u4E86\u3002"
+    portrait: {fileID: 0}
     onLineEndEvent:
       m_PersistentCalls:
         m_Calls: []

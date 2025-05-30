@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &5811956422271574414
+--- !u!1 &1940236182389400498
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,53 +8,40 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 556466811822778485}
-  - component: {fileID: 7419686704672852159}
-  - component: {fileID: 7562342206398686528}
-  - component: {fileID: 6099355250262051411}
-  - component: {fileID: 3780031572083228932}
-  - component: {fileID: 2826442908858432628}
+  - component: {fileID: 6178104385416624238}
+  - component: {fileID: 7067268890868684064}
+  - component: {fileID: 8517691701948502406}
+  - component: {fileID: 4277960017972542181}
+  - component: {fileID: 1350844632672104621}
   m_Layer: 0
-  m_Name: Npc
+  m_Name: Npc2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &556466811822778485
-RectTransform:
+--- !u!4 &6178104385416624238
+Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5811956422271574414}
+  m_GameObject: {fileID: 1940236182389400498}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.07812275}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -8.436, y: 7.23}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &7419686704672852159
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5811956422271574414}
-  m_CullTransparentMesh: 1
---- !u!212 &7562342206398686528
+--- !u!212 &7067268890868684064
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5811956422271574414}
+  m_GameObject: {fileID: 1940236182389400498}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -88,25 +75,58 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1641335507
   m_SortingLayer: 9
-  m_SortingOrder: 1
-  m_Sprite: {fileID: 2060977503, guid: 40e1154306e95ee4bb8ecec28687be5f, type: 3}
+  m_SortingOrder: 0
+  m_Sprite: {fileID: -817024136, guid: 7ec8848bd9f9c06489216aa744343255, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.15, y: 0.22}
+  m_Size: {x: 0.8125, y: 1.5625}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &6099355250262051411
+--- !u!114 &8517691701948502406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940236182389400498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75297e492e9ef7d46927ec45c7ba4fd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueData: {fileID: 11400000, guid: 368cff06c77e056449722a95fd501ef0, type: 2}
+  autoTrigger: 0
+  interactionKey: 101
+  interactionRange: 2
+--- !u!114 &4277960017972542181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940236182389400498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b67e27f8b3b0d5e4d9a67345b219df86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questToGive: {fileID: 11400000, guid: 2313992d524cc284d9ac2e61ddc80e3f, type: 2}
+  completesQuest: 1
+  beforeQuestDialogue: {fileID: 11400000, guid: 368cff06c77e056449722a95fd501ef0, type: 2}
+  duringQuestDialogue: {fileID: 11400000, guid: ce02636ead77cd44f956bd6479b308b1, type: 2}
+  afterQuestDialogue: {fileID: 11400000, guid: 8e30503fbf7d8804fa23d5342dbd220f, type: 2}
+--- !u!61 &1350844632672104621
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5811956422271574414}
+  m_GameObject: {fileID: 1940236182389400498}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -136,45 +156,12 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.9375, y: 1.375}
-    newSize: {x: 0.15, y: 0.22}
+    oldSize: {x: 0.8125, y: 1.5625}
+    newSize: {x: 0.8125, y: 1.5625}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.9375, y: 1.375}
+  m_Size: {x: 0.8125, y: 1.5625}
   m_EdgeRadius: 2
---- !u!114 &3780031572083228932
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5811956422271574414}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b67e27f8b3b0d5e4d9a67345b219df86, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  questToGive: {fileID: 11400000, guid: 2313992d524cc284d9ac2e61ddc80e3f, type: 2}
-  completesQuest: 0
-  beforeQuestDialogue: {fileID: 11400000, guid: 46edf2dda8b9e7348b85440f182d4878, type: 2}
-  duringQuestDialogue: {fileID: 11400000, guid: 20defb46f51fc4145b31a9399e7340a2, type: 2}
-  afterQuestDialogue: {fileID: 11400000, guid: 925bc07f0c91ccb46b492490319bbd85, type: 2}
---- !u!114 &2826442908858432628
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5811956422271574414}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 75297e492e9ef7d46927ec45c7ba4fd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogueData: {fileID: 11400000, guid: 46edf2dda8b9e7348b85440f182d4878, type: 2}
-  autoTrigger: 0
-  interactionKey: 101
-  interactionRange: 2

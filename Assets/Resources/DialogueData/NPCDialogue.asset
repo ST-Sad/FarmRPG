@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c1dbf382138bf34ea2cf6db6dfd0745, type: 3}
   m_Name: NPCDialogue
   m_EditorClassIdentifier: 
-  dialogueID: 1
+  dialogueID: 01
   lines:
-  - speakerName: Sam
+  - speakerName: Amy
     content: Hello!
-    portrait: {fileID: 2060977503, guid: 40e1154306e95ee4bb8ecec28687be5f, type: 3}
+    portrait: {fileID: -817024136, guid: 7ec8848bd9f9c06489216aa744343255, type: 3}
     onLineEndEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -26,7 +26,7 @@ MonoBehaviour:
     onLineEndEvent:
       m_PersistentCalls:
         m_Calls: []
-  - speakerName: Sam
+  - speakerName: Amy
     content: Bye!
     portrait: {fileID: 2060977503, guid: 40e1154306e95ee4bb8ecec28687be5f, type: 3}
     onLineEndEvent:

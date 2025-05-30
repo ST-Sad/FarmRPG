@@ -15,7 +15,7 @@ MonoBehaviour:
   dialogueID: 02
   lines:
   - speakerName: Sam
-    content: "\u8BF7\u4F60\u5E2E\u6211\u6536\u96C65\u4E2A\u80E1\u841D\u535C"
+    content: "\u8BF7\u4F60\u548CAmy\u5BF9\u8BDD"
     portrait: {fileID: 2060977503, guid: 40e1154306e95ee4bb8ecec28687be5f, type: 3}
     onLineEndEvent:
       m_PersistentCalls:
