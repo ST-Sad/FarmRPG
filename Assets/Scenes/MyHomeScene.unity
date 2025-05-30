@@ -8612,6 +8612,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Npc2
       objectReference: {fileID: 0}
+    - target: {fileID: 4277960017972542181, guid: 06ee925b5e065394da8d256da164200f, type: 3}
+      propertyPath: questToGive.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3afd8b69a57bf864ea07bd72b5dddefc, type: 2}
     - target: {fileID: 6178104385416624238, guid: 06ee925b5e065394da8d256da164200f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.5798235
