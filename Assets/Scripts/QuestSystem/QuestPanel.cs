@@ -54,7 +54,7 @@ private IEnumerator InitializeAfterFrame()
     {
         ClearQuestList();
         ClearObjectives();
-
+        Debug.Log("刷新任务"+quest);
         // 显示进行中任务
         foreach (var q in QuestManager.Instance.GetActiveQuests())
         {
