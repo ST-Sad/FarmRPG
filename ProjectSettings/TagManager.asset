@@ -54,11 +54,11 @@ TagManager:
   - name: HarvestPit
     uniqueID: 3007146781
     locked: 0
-  - name: Wall
-    uniqueID: 902806475
-    locked: 0
   - name: Floor
     uniqueID: 2088111299
+    locked: 0
+  - name: Wall
+    uniqueID: 902806475
     locked: 0
   - name: Decoration
     uniqueID: 1350704673
