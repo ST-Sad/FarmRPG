@@ -33,6 +33,13 @@ public class AudioManager : MonoBehaviour
             bgmSource.loop = true;
         }
 
+        // 设置并播放背景音乐
+        if (defaultBGM != null)
+        {
+            bgmSource.clip = defaultBGM;
+            bgmSource.Play();
+        }
+
         // 初始化SFX对象池
         for (int i = 0; i < initialPoolSize; i++)
         {
