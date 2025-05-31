@@ -8612,6 +8612,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Npc2
       objectReference: {fileID: 0}
+    - target: {fileID: 1940236182389400498, guid: 06ee925b5e065394da8d256da164200f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4277960017972542181, guid: 06ee925b5e065394da8d256da164200f, type: 3}
       propertyPath: questToGive.Array.data[0]
       value: 
@@ -8749,9 +8753,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3920057278699500342, guid: 1de9078fa87db9245ba0836768babb38, type: 3}
+      propertyPath: m_IncludeLayers.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 5811956422271574414, guid: 1de9078fa87db9245ba0836768babb38, type: 3}
       propertyPath: m_Name
       value: Npc
+      objectReference: {fileID: 0}
+    - target: {fileID: 5811956422271574414, guid: 1de9078fa87db9245ba0836768babb38, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

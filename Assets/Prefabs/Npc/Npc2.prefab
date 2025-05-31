@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 7067268890868684064}
   - component: {fileID: 8517691701948502406}
   - component: {fileID: 4277960017972542181}
-  - component: {fileID: 1350844632672104621}
+  - component: {fileID: 8598847087733311362}
+  - component: {fileID: 1401416420647702705}
   m_Layer: 0
   m_Name: Npc2
   m_TagString: Untagged
@@ -125,8 +126,8 @@ MonoBehaviour:
   afterQuestDialogue:
   - {fileID: 11400000, guid: 8e30503fbf7d8804fa23d5342dbd220f, type: 2}
   interactionKey: 101
---- !u!61 &1350844632672104621
-BoxCollider2D:
+--- !u!70 &8598847087733311362
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -154,19 +155,36 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.8125, y: 1.5625}
-    newSize: {x: 0.8125, y: 1.5625}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.8125, y: 1.5625}
-  m_EdgeRadius: 2
+  m_Offset: {x: 0, y: 0.0029156208}
+  m_Size: {x: 0.8125, y: 1.4983532}
+  m_Direction: 0
+--- !u!50 &1401416420647702705
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940236182389400498}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
