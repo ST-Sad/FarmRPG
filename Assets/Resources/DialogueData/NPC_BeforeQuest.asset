@@ -16,7 +16,7 @@ MonoBehaviour:
   lines:
   - speakerName: NPC
     content: "\u563F\uFF0C\u5192\u9669\u8005\uFF01\u6211\u6709\u4E2A\u4EFB\u52A1\u7ED9\u4F60\u3002\u4F60\u80FD\u5E2E\u6211\u53BB\u627ENPC2\u8C08\u8C08\u5417\uFF1F"
-    portrait: {fileID: 0}
+    portrait: {fileID: 2060977503, guid: 40e1154306e95ee4bb8ecec28687be5f, type: 3}
     onLineEndEvent:
       m_PersistentCalls:
         m_Calls: []
