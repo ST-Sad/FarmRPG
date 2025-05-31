@@ -42,9 +42,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Player
-    uniqueID: 1453376577
-    locked: 0
   - name: FarmTile
     uniqueID: 719619007
     locked: 0
@@ -56,6 +53,9 @@ TagManager:
     locked: 0
   - name: Floor
     uniqueID: 2088111299
+    locked: 0
+  - name: Player
+    uniqueID: 1453376577
     locked: 0
   - name: Wall
     uniqueID: 902806475
