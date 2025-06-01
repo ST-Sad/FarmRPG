@@ -20,7 +20,7 @@ MonoBehaviour:
     onLineEndEvent:
       m_PersistentCalls:
         m_Calls: []
-  hasChoice: 1
+  hasChoice: 0
   options:
   - optionText: "\u91D1\u82F9\u679C"
     onChooseEvent:

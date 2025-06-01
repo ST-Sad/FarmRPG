@@ -15,20 +15,32 @@ MonoBehaviour:
   dialogueID: 01
   lines:
   - speakerName: Amy
-    content: Hello!
+    content: "\u4F60\u597D\u5440\u5C0F\u52C7\u58EB\uFF0C\u5F88\u9AD8\u5174\u8BA4\u8BC6\u4F60\u54E6\uFF01"
     portrait: {fileID: -817024136, guid: 7ec8848bd9f9c06489216aa744343255, type: 3}
     onLineEndEvent:
       m_PersistentCalls:
         m_Calls: []
   - speakerName: You
-    content: Hi
+    content: "\u4F60\u597D\u4F60\u597D\u8BF7\u591A\u6307\u6559\uFF01"
     portrait: {fileID: 1614771897, guid: f4c5e9bcf33a95c49a3cdc4986f05785, type: 3}
     onLineEndEvent:
       m_PersistentCalls:
         m_Calls: []
   - speakerName: Amy
-    content: Bye!
-    portrait: {fileID: 2060977503, guid: 40e1154306e95ee4bb8ecec28687be5f, type: 3}
+    content: "\u6211\u9001\u4F60\u4E00\u5F20\u5730\u56FE\u4F5C\u4E3A\u89C1\u9762\u793C\u5427~\u4F60\u53EF\u4EE5\u5728\u57CE\u9547\u4E0A\u81EA\u7531\u7A7F\u68AD\uFF0C\u53E6\u5916\u518D\u9001\u4F60\u4E00\u4E2A\u5C0F\u80CC\u5305\uFF01\u53EF\u4EE5\u7ED9\u4F60\u653E\u4E1C\u897F\uFF01"
+    portrait: {fileID: -817024136, guid: 7ec8848bd9f9c06489216aa744343255, type: 3}
+    onLineEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerName: You
+    content: "\u5929\u54EA\uFF01\u771F\u7684\u592A\u611F\u8C22\u4E86\uFF01"
+    portrait: {fileID: 1614771897, guid: f4c5e9bcf33a95c49a3cdc4986f05785, type: 3}
+    onLineEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerName: Amy
+    content: "\u4E0D\u5BA2\u6C14\u54E6\uFF01\u6211\u8981\u63D0\u9192\u4F60\u8FD9\u4E2A\u57CE\u9547\u4E0A\u7684\u6811\u6869\u602A\u4F1A\u6BCF\u9694\u4E00\u6BB5\u65F6\u95F4\u5C31\u5237\u65B0\u54E6\uFF01\u5343\u4E07\u5C0F\u5FC3\uFF01\u52A0\u6CB9\u5C0F\u52C7\u58EB\uFF01"
+    portrait: {fileID: -817024136, guid: 7ec8848bd9f9c06489216aa744343255, type: 3}
     onLineEndEvent:
       m_PersistentCalls:
         m_Calls: []

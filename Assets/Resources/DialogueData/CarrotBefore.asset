@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c1dbf382138bf34ea2cf6db6dfd0745, type: 3}
+  m_Name: CarrotBefore
+  m_EditorClassIdentifier: 
+  dialogueID: CarrotBefore
+  lines:
+  - speakerName: Sam
+    content: "\u4F60\u53EF\u4EE5\u5E2E\u6211\u6536\u96C6\u51E0\u4E2A\u80E1\u841D\u535C\u5417\uFF1F\u62DC\u6258\u62DC\u6258\uFF01"
+    portrait: {fileID: 2060977503, guid: 40e1154306e95ee4bb8ecec28687be5f, type: 3}
+    onLineEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerName: You
+    content: "\u5F53\u7136\u6CA1\u95EE\u9898\uFF01"
+    portrait: {fileID: 1614771897, guid: f4c5e9bcf33a95c49a3cdc4986f05785, type: 3}
+    onLineEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  hasChoice: 0
+  options: []

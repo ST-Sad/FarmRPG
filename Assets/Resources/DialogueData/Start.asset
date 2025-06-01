@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c1dbf382138bf34ea2cf6db6dfd0745, type: 3}
+  m_Name: Start
+  m_EditorClassIdentifier: 
+  dialogueID: 
+  lines:
+  - speakerName: You
+    content: "\u5514~\u6628\u5929\u7761\u5F97\u771F\u597D\uFF01"
+    portrait: {fileID: 1614771897, guid: f4c5e9bcf33a95c49a3cdc4986f05785, type: 3}
+    onLineEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerName: You
+    content: "\u6B38\uFF1F\u4EC0\u4E48\u58F0\u97F3\uFF1F\uFF01\u8BE5\u4E0D\u4F1A\u53C8\u662F\u8BE5\u6B7B\u7684\u6811\u6869\u602A\uFF1F\uFF01\u51FA\u53BB\u770B\u770B\uFF01"
+    portrait: {fileID: 1614771897, guid: f4c5e9bcf33a95c49a3cdc4986f05785, type: 3}
+    onLineEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  hasChoice: 0
+  options: []

@@ -1295,13 +1295,29 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1394527249}
+    - target: {fileID: 6989082959868155482, guid: a5196812770da5c4098927d371e01ab6, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1324.422
+      objectReference: {fileID: 0}
+    - target: {fileID: 6989082959868155482, guid: a5196812770da5c4098927d371e01ab6, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 167.906
+      objectReference: {fileID: 0}
+    - target: {fileID: 6989082959868155482, guid: a5196812770da5c4098927d371e01ab6, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -121.708
+      objectReference: {fileID: 0}
+    - target: {fileID: 6989082959868155482, guid: a5196812770da5c4098927d371e01ab6, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 13.126
+      objectReference: {fileID: 0}
     - target: {fileID: 7309752307343799982, guid: a5196812770da5c4098927d371e01ab6, type: 3}
       propertyPath: m_Name
       value: DialoguePanel
       objectReference: {fileID: 0}
     - target: {fileID: 7309752307343799982, guid: a5196812770da5c4098927d371e01ab6, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1363,7 +1379,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questDatabase:
-  - {fileID: 11400000, guid: 3f0dbb4438ffeab43b682c867492e95e, type: 2}
+  - {fileID: 11400000, guid: b72a1f33adf171543a2b15940ef8b49d, type: 2}
+  - {fileID: 11400000, guid: 22e38244df2a5ff4881a374cdb358d3a, type: 2}
   OnQuestAccepted:
     m_PersistentCalls:
       m_Calls: []
@@ -2293,7 +2310,7 @@ MonoBehaviour:
   mapDatabase:
   - mapName: MyHome
     sceneName: MyHomeScene
-    spawnPoint: {x: -8, y: 14}
+    spawnPoint: {x: 0.7, y: 16}
     parentMap: TotalMap
   - mapName: Outdoor
     sceneName: OutdoorScene
@@ -2344,7 +2361,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35ef669a584afbc44972e36a27e92db2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slots: []
+  slots:
+  - item: {fileID: 11400000, guid: aa87b8fe0ce646b4f8e5d82b59da0fea, type: 2}
+    quantity: 5
 --- !u!4 &1524575805
 Transform:
   m_ObjectHideFlags: 0
